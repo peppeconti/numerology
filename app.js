@@ -1,8 +1,13 @@
 const express = require('express');
-var cors = require('cors');
+const cors = require('cors');
+const HttpError = require('./models/http-error');
+
 
 // BODYPARSER
 const bodyParser = require('body-parser');
+
+// ROUTES
+const affinityRoutes = require('./api/routes/affinity-route');
 
 const app = express();
 
@@ -10,9 +15,12 @@ app.use(bodyParser.json());
 
 app.use(cors());
 
+// ROUTES
+app.use('/api/affinity', affinityRoutes);
+
 // ROUTE NOT FOUND
 app.use((req, res, next) => {
-    const error = new Error('Could not find this route');
+    const error = new HttpError('Could not find this route', 404);
     throw error;
   });
 // GENERAL ERROR HANDLING
