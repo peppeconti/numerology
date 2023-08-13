@@ -23,6 +23,8 @@ const calculateAffinity = async (req, res, next) => {
   // RESPONSE
   res.status(200).json({
     status: true,
+    her,
+    him,
     affinity: result,
   });
 };

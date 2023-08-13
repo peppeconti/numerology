@@ -10,10 +10,11 @@ router.post(
   "/",
   query("her").not().isEmpty().withMessage("The field couldn't be empty").isDate({
     format: 'DD-MM-YYYY'
-  }).withMessage("Please insert a valid date"),
+  }).withMessage("Please insert a valid date: DD-MM-YYYY"),
   query("him").not().isEmpty().withMessage("The field couldn't be empty").isDate({
     format: 'DD-MM-YYYY'
-  }).withMessage("Please insert a valid date"),
+  }).withMessage("Please insert a valid date: DD-MM-YYYY"),
+  query("lan", "The language value should be either 'it' oder 'en'").isIn(["it", "en"]).optional(),
   affinityControllers.calculateAffinity
 );
 
