@@ -14,10 +14,12 @@ const calculateAffinity = async (req, res, next) => {
   }
 
   let result;
-  const { her, him } = req.query;
+  let language;
+  const { her, him, lan} = req.query;
+  lan ? language = lan : language = "it"; 
   couples[her][him]
-    ? (result = couples[her][him])
-    : (result = couples[him][her]);
+    ? (result = couples[her][him][language])
+    : (result = couples[him][her][language]);
   // RESPONSE
   res.status(200).json({
     status: true,
