@@ -42,48 +42,144 @@ const couples = {
         it: "Questa relazione è un grande incontro tra due anime con un sano rispetto per il potere dell'affetto e dell'emozione. L'unico avvertimento su questa combinazione è che, essendo due persone molto sensibili, devi ricordare quanto sei vulnerabile alle critiche, quindi potrebbe essere necessario affrontarle consapevolmente per evitare ferite verbali reciproche. Questo di solito non è un problema, poiché entrambi vi rispettate e avete la capacità di relazionarvi alle esperienze emotive dell'altro.",
         en: "This relationship is a great meeting between two souls with a healthy respect for the power of affection and emotion. The only caveat to this combination is that, as two highly sensitive people, you need to remember how vulnerable you are to criticism, so you may need to deal with it consciously to avoid mutual verbal hurt. This is usually not a problem, as you both respect each other and have the ability to relate to each other's emotional experiences."
     },
-    3: "11d",
-    4: "12d",
-    5: "13d",
-    6: "14d",
-    7: "15d",
-    8: "16d",
-    9: "17d",
+    3: {
+        it: "",
+        en: ""
+    },
+    4: {
+        it: "",
+        en: ""
+    },
+    5: {
+        it: "",
+        en: ""
+    },
+    6: {
+        it: "",
+        en: ""
+    },
+    7: {
+        it: "",
+        en: ""
+    },
+    8: {
+        it: "",
+        en: ""
+    },
+    9: {
+        it: "",
+        en: ""
+    }
   },
   3: {
-    3: "18d",
-    4: "1d",
-    5: "20d",
-    6: "21d",
-    7: "22d",
-    8: "23d",
-    9: "24d",
+    3: {
+        it: "",
+        en: ""
+    },
+    4: {
+        it: "",
+        en: ""
+    },
+    5: {
+        it: "",
+        en: ""
+    },
+    6: {
+        it: "",
+        en: ""
+    },
+    7: {
+        it: "",
+        en: ""
+    },
+    8: {
+        it: "",
+        en: ""
+    },
+    9: {
+        it: "",
+        en: ""
+    }
   },
   4: {
-    4: "25d",
-    5: "26d",
-    6: "27d",
-    7: "28d",
-    8: "29d",
-    9: "30d",
+    4: {
+        it: "",
+        en: ""
+    },
+    5: {
+        it: "",
+        en: ""
+    },
+    6: {
+        it: "",
+        en: ""
+    },
+    7: {
+        it: "",
+        en: ""
+    },
+    8: {
+        it: "",
+        en: ""
+    },
+    9: {
+        it: "",
+        en: ""
+    }
   },
   5: {
-    5: "31d",
-    6: "32d",
-    7: "33d",
-    8: "34d",
-    9: "35d",
+    5: {
+        it: "",
+        en: ""
+    },
+    6: {
+        it: "",
+        en: ""
+    },
+    7: {
+        it: "",
+        en: ""
+    },
+    8: {
+        it: "",
+        en: ""
+    },
+    9: {
+        it: "",
+        en: ""
+    }
   },
   6: {
-    6: "36d",
-    7: "37d",
-    8: "38d",
-    9: "39d",
+    6: {
+        it: "",
+        en: ""
+    },
+    7: {
+        it: "",
+        en: ""
+    },
+    8: {
+        it: "",
+        en: ""
+    },
+    9: {
+        it: "",
+        en: ""
+    }
   },
   7: {
-    7: "40d",
-    8: "41d",
-    9: "42d",
+    7: {
+        it: "",
+        en: ""
+    },
+    8: {
+        it: "",
+        en: ""
+    },
+    9: {
+        it: "",
+        en: ""
+    }
   },
   8: {
     8: {
