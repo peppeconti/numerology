@@ -77,8 +77,8 @@ const couples = {
         en: ""
     },
     4: {
-        it: "",
-        en: ""
+        it: "Il rapporto del 3, amante del divertmento, con il 4 solido, pratico e affidabile, è più complicato. Le vostre diverse prospettive potrebbero rendervi le cose difficili. La chiave per rendere possibile la vostra relazione è concentrarvi sulle vostre qualità piuttosto che giudicarvi a vicenda. Bisogno di trovare un equilibrio in modo da poter convivere e prosperare in una relazione. Il 4 deve imparare dal 3 a divertirsi. D'altra parte, il 3 deve imparare dal 4 il senso della sicurezza.",
+        en: "The relationship of the fun-loving 3 to the solid, practical, and reliable 4 is more complicated. Your different perspectives may make things difficult for you. The key to making your relationship possible is to focus on your qualities rather than judging each other. You need to find a balance so you can live together and thrive in a relationship. The 4 must learn from the 3 to have fun. On the other hand, the 3 must learn the sense of security from the 4."
     },
     5: {
         it: "",
