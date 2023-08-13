@@ -43,38 +43,38 @@ const couples = {
         en: "This relationship is a great meeting between two souls with a healthy respect for the power of affection and emotion. The only caveat to this combination is that, as two highly sensitive people, you need to remember how vulnerable you are to criticism, so you may need to deal with it consciously to avoid mutual verbal hurt. This is usually not a problem, as you both respect each other and have the ability to relate to each other's emotional experiences."
     },
     3: {
-        it: "",
-        en: ""
+        it: "Il 2 e il 3, solare e ottimista, potrebbero avere una buona relazione, anche se potrebbe essere necessario un certo impegno per ovviare a una mancanza di disciplina e concentrazione. Di solito la combinazione di 2 e 3 aiuta ad aumentare la creatività di entrambe le parti. Il senso di armonia e ritmo associato al 2 si fonde magnificamente con l'espressione creativa del 3. La vostra relazione può essere notevolmente rafforzata condividendo gli interessi creativi.",
+        en: "The sunny and optimistic 2 and 3 may be in a good relationship, although some effort may be required to make up for a lack of discipline and focus. Usually the combination of 2 and 3 helps to increase the creativity of both parties. The sense of harmony and rhythm associated with the 2 blends beautifully with the creative expression of the 3. Your relationship can be greatly strengthened by sharing creative interests."
     },
     4: {
-        it: "",
-        en: ""
+        it: "La combinazione tra il 2 e il 4 è ottima. Sappiamo che la perfezione non esiste e che non c'è relazione senza difficoltà; tuttavia, questa è una delle combinazioni migliori. La prospettiva concreta e pratica del 4 si fonde con il lato sensibile e intuitivo del 2 per portare un sano equilibrio nella relazione.",
+        en: "The combination between 2 and 4 is excellent. We know that perfection does not exist and that there is no relationship without difficulty; however, this is one of the better combinations. The concrete and practical perspective of the 4 merges with the sensitive and intuitive side of the 2 to bring a healthy balance to the relationship."
     },
     5: {
-        it: "",
-        en: ""
+        it: "Per il 2 relazionarsi con un energico 5 può essere un'esperienza meravigliosa, appassionata e avventurosa, per nulla noiosa.  Avvertimento: il 5 può essere irresponsabile e indulgente, e questo potrebbe far soffrire molto il fragile ed emotivo 2.",
+        en: "For the 2, relating to an energetic 5 can be a wonderful, passionate and adventurous experience, not boring at all. Warning: the 5 can be irresponsible and indulgent, and this could make the fragile and emotional 2 suffer greatly."
     },
     6: {
-        it: "",
-        en: ""
+        it: "Il 6 ama sono stare con la famiglia, prendersi cura di loro e confortarli, il 2 è un numero sensibile ed emotivamente consapevole, il che consente a non tirarsi indietro e gettare solide basi per una relazione duratura. Sebbene questi tratti comuni portino energia positiva alla tua relazione, è importante che considerate che anche voi avete i vostri lati “negativi”, come ad esempio per il 6 con le sue gelosie e il bisogno di approvazione e lode, e il 2 per le sue insicurezze e gelosie occasionali. Se tenete sotto controllo questi lati “negativi, una rottura è meno probabile rispetto alla maggior parte delle altre combinazioni di numeri.",
+        en: "6 loves only being with family, taking care of them and comforting them, 2 is a sensitive and emotionally aware number, which allows you not to back down and lay a solid foundation for a lasting relationship. While these common traits bring positive energy to your relationship, it's important that you consider that you also have your “negative” sides, such as 6 with its jealousies and need for approval and praise, and 2 with its occasional insecurities and jealousies. If you keep these downsides in check, a breakout is less likely than with most other number combinations."
     },
     7: {
-        it: "",
-        en: ""
+        it: "Il 2 e il 7 sono una combinazione unica: intuizione e intelligenza, sensibilità e analisi, cuore e mente. Sebbene le due figure esprimano raramente interesse l'una per l'altra, quando lo fanno, i risultati spesso portano a una relazione duratura.",
+        en: "2 and 7 are a unique combination: intuition and intelligence, sensitivity and analysis, heart and mind. While the two figures rarely express interest in each other, when they do, the results often lead to a long-lasting relationship."
     },
     8: {
-        it: "",
-        en: ""
+        it: "La natura del 2 collaborativa, paziente e aperta si adatta a un 8 deciso e laborioso nell'amore e nelle relazioni professionali. Tuttavia, la relazione tra 2 e 8 può talvolta essere basata “sull'illusione” o sul presupposto che il partner non cambierà mai: il 2 apprezza il potere dell'8 e crede che sarà sempre lì, mentre l'8 è attratto dalla natura romantica ed emotiva del 2 e si aspetta che sia sempre fermo.  Ma a volte il potere vacilla e il cuore sembra perdere interesse. Rimanendo vigili e reattivi gli uni agli altri e non permettendo ai problemi di degenerare, avete il potenziale per superare queste sfide, e fare in modo che la vostra relazione duri a lungo termine.",
+        en: "The cooperative, patient, and open 2's nature suits a purposeful and hardworking 8 in love and professional relationships. However, the relationship between 2 and 8 can sometimes be based on “delusion” or the assumption that the partner will never change: 2 appreciates the power of 8 and believes it will always be there, while 8 is attracted to nature romantic and emotional of 2 and expects it to always be still. But sometimes the power falters and the heart seems to lose interest. By staying alert and responsive to each other and not allowing problems to escalate, you have the potential to overcome these challenges, and make your relationship last for the long term."
     },
     9: {
-        it: "",
-        en: ""
+        it: "Con il 9 non funziona molto bene. Sebbene entrambi siano numeri amorevoli e premurosi, l'attenzione del 9 è rivolta al mondo e alla cura che naturalmente devono condividere con tutta l'umanità, mentre l'affetto del 2 si concentra solamente su coloro che amano. Generalmente, i 2 e i 9 possono formare alleanze di successo in altre situazioni, come le partnership commerciali, ma quando si tratta dei loro bisogni e desideri interiori, ci vuole un grande sforzo da parte tua per farlo funzionare.",
+        en: "With the 9 it doesn't work very well. While both are loving and caring numbers, the focus of 9 is on the world and the care they naturally have to share with all mankind, while the affection of 2 is focused solely on those they love. Generally, 2s and 9s can form successful alliances in other situations, such as business partnerships, but when it comes to their inner needs and desires, it takes a lot of effort on your part to make it work."
     }
   },
   3: {
     3: {
-        it: "",
-        en: ""
+        it: "Due individui di tipo 3, si comprendono e si sostengono a vicenda. Tuttavia, possono sorgere problemi quando ci sono mansioni da gestire. Entrambi avete la tendenza a sorvolare , e quando il divertimento e la gioia diventano più importanti, e una delle parti è riluttante o incapace di prendersi cura dei dettagli pratici della giornata, si possono creare attriti e minare le fondamenta della relazione.",
+        en: "Two type 3 individuals understand and support each other. However, problems can arise when there are tasks to manage. You both have a tendency to gloss over things, and when fun and joy become more important, and one party is unwilling or unable to take care of the practical details of the day, friction can build up and undermine the relationship's foundations."
     },
     4: {
         it: "Il rapporto del 3, amante del divertmento, con il 4 solido, pratico e affidabile, è più complicato. Le vostre diverse prospettive potrebbero rendervi le cose difficili. La chiave per rendere possibile la vostra relazione è concentrarvi sulle vostre qualità piuttosto che giudicarvi a vicenda. Bisogno di trovare un equilibrio in modo da poter convivere e prosperare in una relazione. Il 4 deve imparare dal 3 a divertirsi. D'altra parte, il 3 deve imparare dal 4 il senso della sicurezza.",
