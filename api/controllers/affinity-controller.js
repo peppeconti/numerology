@@ -2,6 +2,17 @@ const couples = require("../utils/results");
 const HttpError = require('../../models/http-error');
 const { validationResult } = require("express-validator");
 
+const reduction = (series) => {
+
+  while (series.length > 1) {
+      const number = series.split("").map((e) => Number(e));
+      const sum = number.reduce((a, b) => a + b, 0).toString();
+      return reduction(sum);
+  }
+
+  return series;
+};
+
 const calculateAffinity = async (req, res, next) => {
 
   // VALIDATION
@@ -16,10 +27,12 @@ const calculateAffinity = async (req, res, next) => {
   let result;
   let language;
   const { her, him, lan} = req.query;
-  lan ? language = lan : language = "it"; 
-  couples[her][him]
-    ? (result = couples[her][him][language])
-    : (result = couples[him][her][language]);
+  lan ? language = lan : language = "it";
+  const herNumber = reduction(her.replace(/\D/g, ''));
+  const himNumber = reduction(him.replace(/\D/g, ''));
+  couples[herNumber][himNumber]
+    ? (result = couples[herNumber][himNumber][language])
+    : (result = couples[himNumber][herNumber][language]);
   // RESPONSE
   res.status(200).json({
     status: true,
