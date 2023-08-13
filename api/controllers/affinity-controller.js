@@ -4,5 +4,4 @@ const calculateAffinity = async (req, res, next) => {
     affinity: '50%',
   });
 };
-
 exports.calculateAffinity = calculateAffinity;
