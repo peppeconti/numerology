@@ -81,37 +81,37 @@ const couples = {
         en: "The relationship of the fun-loving 3 to the solid, practical, and reliable 4 is more complicated. Your different perspectives may make things difficult for you. The key to making your relationship possible is to focus on your qualities rather than judging each other. You need to find a balance so you can live together and thrive in a relationship. The 4 must learn from the 3 to have fun. On the other hand, the 3 must learn the sense of security from the 4."
     },
     5: {
-        it: "",
+        it: "L'adattabile e avventuroso 5 si adatta al bisogno d'imprevedibilità e avventura del 3. Siete entrambi buoni comunicatori (questa è salvezza della relazione), e le vostre abilità linguistiche fanno di voi una bella coppia; tuttavia, poiché a entrambi piace essere al centro della scena, potreste sviluppare un senso di atmosfera competitiva con il rischio di diventare gelosi l'uno dell'altro.",
         en: ""
     },
     6: {
-        it: "",
+        it: "Tra il 6 e il 3 c'è il potenziale per essere una coppia creativa con una vita sociale attiva. Il 3 con il suo entusiasmo e senso dell'umorismo, e il 6 con calore, supporto e amore disinteressato, rendono questa combinazione una squadra ideale per eccellere nella maggior parte delle situazioni. La chimica qui è forte, ma mentre le emozioni non mancano, la trappola qui potrebbe essere l'eccessivo legame emotivo che i 6 sperimentano. Toccherà al 6 imparare a fare i conti con la sua gelosia innata, quindi imparare a lasciare al 3 abbastanza spazio e libertà per muoversi e respirare.",
         en: ""
     },
     7: {
-        it: "",
+        it: "Il 7 e il 3 sono due numeri naturalmente attratti l'uno verso l'altro. Il  3 rappresenta la comunicazione mentre il numero 7 raffigura il sacrificio. Questa associazione è ottima per una relazione, perché rappresenta il rispetto reciproco, l'amore, la comprensione e una buona atmosfera familiare. I due numeri sono diametralmente opposti e alcuni li considerano incompatibili. Ma è questa natura opposta ad attrarre le due persone. La chiave del successo sta nella conversazione onesta su bisogni, desideri e obiettivi di ognuno.",
         en: ""
     },
     8: {
-        it: "",
+        it: "L'8 è ambizioso, materialista, forte energico e cerca il potere. Il 3 è incline a socializzare, è amante del lusso, schietto, audace e artistico.  Entrambi tendono ad essere egoisti ed è difficile mantenere la pace nel rapporto tra i due. Per una relazione stabile, il temperamento deve essere equilibrato. Senza gli sforzi di entrambe le parti, la relazione potrebbe finire presto.",
         en: ""
     },
     9: {
-        it: "",
+        it: "Il 9 e il 3 sono una combinazione di due persone che, attraverso la loro potente immaginazione, sono in grado di impegnarsi continuamente in una varietà di modi creativi. Entrambi siete artistici, fantasiosi, accomodanti, ottimisti e positivi. Le vostre caratteristiche e i vostri interessi sono quasi simili. Questa combinazione riflette un'eccellente compatibilità.",
         en: ""
     }
   },
   4: {
     4: {
-        it: "",
+        it: "Tra numeri 4 ci può essere stabilità; tuttavia, a causa della vostra natura, potreste diventare un po' irrequieti quando la routine stabilita viene interrotta. Ciò può portare a una relazione molto buona, o molto stressante. Gli aspetti positivi di questo abbinamento sono stabilità e sicurezza… il rovescio della medaglia è che c'è difficoltà a rilassarsi, a essere spontanei e godersi il momento.",
         en: ""
     },
     5: {
-        it: "",
+        it: "Questa  relazione potrebbe risultare impegnativa, il 4 e il 5 sono ai poli opposti l'uno dell'altro. Il 4 ama la routine e la prevedibilità, Il 5 ama il cambiamento e la sorpresa, l'unico modo in cui questa coppia può sopravvivere è accettarsi l'un l'altro per quello che sono e rispettare le loro differenze invece di cercare di cambiare il proprio partner.",
         en: ""
     },
     6: {
-        it: "",
+        it: "Il 6 e il 4 hanno tratti comuni condivisi ma, nonostante queste somiglianze, non è comune che il 4 e il 6 si innamorino. Tuttavia, poiché il 6 è coscienzioso e orientato alla famiglia, ed entrambi amate la stabilità e la sicurezza, se entrate in una relazione romantica, c'è il potenziale di creare una relazione di coppia solida e tranquilla.",
         en: ""
     },
     7: {
