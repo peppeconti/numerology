@@ -115,15 +115,15 @@ const couples = {
         en: ""
     },
     7: {
-        it: "",
+        it: "Con il  7 spirituale e introspettivo, assieme al 4 concreto e stabile, create una buona combinazione “<i>l'unione del cielo e della terra</i>”, non potete esistere l'uno senza l'altro. Ci sono alcuni angoli da smussare, tuttavia questo abbinamento vi rende la vita più sicura è più divertente per entrambi, rendendo più facile superare le sfide che si possono presentare.",
         en: ""
     },
     8: {
-        it: "",
+        it: "L'8 e il 4 sono un bel mix, non solo nel romanticismo ma anche negli affari. Entrambi sono laboriosi, intelligenti, professionali e ambiziosi. Pertanto, questa combinazione è buona per il matrimonio. Molto simili tra loro, sanno come costruire e far crescere una relazione solida per il futuro. Tuttavia, come con qualsiasi altra combinazione di numeri, possono esserci problemi come, ad esempio, trovare il tempo per il romanticismo.",
         en: ""
     },
     9: {
-        it: "",
+        it: "L'abbinamento tra il 9 e il 4 ha raramente successo. Tra di voi ci sono differenze importanti che entrambi dovete risolvere e accettare se volete che la relazione duri. Se hai una relazione di successo, questo di solito indica che hai altri numeri nella tua mappa numerologica che svolgono un ruolo abbastanza significativo da superare questa particolare combinazione incompatibile.",
         en: ""
     }
   },
