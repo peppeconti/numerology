@@ -1,5 +1,5 @@
 const couples = require("../utils/results");
-const HttpError = require('../../models/http-error');
+const HttpError = require("../../models/http-error");
 const { validationResult } = require("express-validator");
 
 const reduction = (series) => {
@@ -17,7 +17,7 @@ const calculateAffinity = async (req, res, next) => {
 
   // VALIDATION
   const errors = validationResult(req);
-  console.log(errors);
+  // console.log(errors);
   if (!errors.isEmpty()) {
     const listedErrors = errors.errors.map((e) => e.msg);
     const error = new HttpError(listedErrors.join(","), 422);
@@ -28,8 +28,8 @@ const calculateAffinity = async (req, res, next) => {
   let language;
   const { her, him, lan} = req.query;
   lan ? language = lan : language = "it";
-  const herNumber = reduction(her.replace(/\D/g, ''));
-  const himNumber = reduction(him.replace(/\D/g, ''));
+  const herNumber = reduction(her.replace(/\D/g, ""));
+  const himNumber = reduction(him.replace(/\D/g, ""));
   couples[herNumber][himNumber]
     ? (result = couples[herNumber][himNumber][language])
     : (result = couples[himNumber][herNumber][language]);
