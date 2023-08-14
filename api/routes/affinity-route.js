@@ -6,7 +6,7 @@ const affinityControllers = require("../controllers/affinity-controller");
 
 const router = express.Router();
 
-router.post(
+router.get(
   "/",
   query("her").not().isEmpty().withMessage("The field couldn't be empty").isDate({
     format: 'DD-MM-YYYY'

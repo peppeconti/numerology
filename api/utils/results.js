@@ -67,8 +67,8 @@ const couples = {
         en: "The cooperative, patient, and open 2's nature suits a purposeful and hardworking 8 in love and professional relationships. However, the relationship between 2 and 8 can sometimes be based on “delusion” or the assumption that the partner will never change: 2 appreciates the power of 8 and believes it will always be there, while 8 is attracted to nature romantic and emotional of 2 and expects it to always be still. But sometimes the power falters and the heart seems to lose interest. By staying alert and responsive to each other and not allowing problems to escalate, you have the potential to overcome these challenges, and make your relationship last for the long term."
     },
     9: {
-        it: "Con il 9 non funziona molto bene. Sebbene entrambi siano numeri amorevoli e premurosi, l'attenzione del 9 è rivolta al mondo e alla cura che naturalmente devono condividere con tutta l'umanità, mentre l'affetto del 2 si concentra solamente su coloro che amano. Generalmente, i 2 e i 9 possono formare alleanze di successo in altre situazioni, come le partnership commerciali, ma quando si tratta dei loro bisogni e desideri interiori, ci vuole un grande sforzo da parte tua per farlo funzionare.",
-        en: "With the 9 it doesn't work very well. While both are loving and caring numbers, the focus of 9 is on the world and the care they naturally have to share with all mankind, while the affection of 2 is focused solely on those they love. Generally, 2s and 9s can form successful alliances in other situations, such as business partnerships, but when it comes to their inner needs and desires, it takes a lot of effort on your part to make it work."
+        it: "Tra il 9 e il 2 non funziona molto bene. Sebbene entrambi siano numeri amorevoli e premurosi, l'attenzione del 9 è rivolta al mondo e alla cura che naturalmente devono condividere con tutta l'umanità, mentre l'affetto del 2 si concentra solamente su coloro che amano. Generalmente, i 2 e i 9 possono formare alleanze di successo in altre situazioni, come le partnership commerciali, ma quando si tratta dei loro bisogni e desideri interiori, ci vuole un grande sforzo da parte tua per farlo funzionare.",
+        en: "Between the 9 and the 2 it doesn't work very well. While both are loving and caring numbers, the focus of 9 is on the world and the care they naturally have to share with all mankind, while the affection of 2 is focused solely on those they love. Generally, 2s and 9s can form successful alliances in other situations, such as business partnerships, but when it comes to their inner needs and desires, it takes a lot of effort on your part to make it work."
     }
   },
   3: {
@@ -129,23 +129,23 @@ const couples = {
   },
   5: {
     5: {
-        it: "",
+        it: "Tra due 5 la relazione è compatibile, entrambi apprezzate la libertà, siete persone non convenzionali, attive, mutevoli, avventurose e amanti dei viaggi. Tutte queste caratteristiche sono buone per l'amicizia e gli affari. Solo pochi altri numeri sono aperti a nuove idee come lo sono i 5.",
         en: ""
     },
     6: {
-        it: "",
+        it: "Tra il 5 e il 6 solitamente c'è molta sensualità e attrazione fisica. Il 5 è il numero della libertà, cambiamento, viaggio, avventura; il numero 6 rappresenta armonia, lealtà, buon senso ed equilibrio. La famiglia sarà sempre la priorità assoluta del numero 6. Questa relazione di solito, funziona bene, perché entrambe le parti hanno caratteristiche equilibrate che costituiscono le basi per una buona relazione. Potete completarvi a vicenda, ma solamente se entrambi siete disposti a scendere a compromessi. Se riusciste a trovare un modo per incontrarvi nel mezzo, potrebbe essere una relazione promettente.",
         en: ""
     },
     7: {
-        it: "",
+        it: "Quella tra il 5 e il 7 è una combinazione di due numeri che soddisfano i bisogni e i desideri dell'altro in molti modi. Mentre un 7 si gode del tempo da solo, il 5 libero apprezza la mancanza di richieste di attenzione da parte del suo partner. Quando sono insieme, la coppia è in grado di trovare interessi comuni da discutere ed esplorare, soprattutto a livello intellettuale e spirituale, rendendo questa una delle migliori combinazioni per una relazione duratura.",
         en: ""
     },
     8: {
-        it: "",
+        it: "Il 5 e l'8 non sono una buona combinazione. Mentre il 5 è dinamico e vuole essere libero da regole e restrizioni, l'8 è una figura forte e autorevole abituata ad essere il capo. Ci vorrà un'attenta pianificazione e compromesso, e ruoli molto diversi e distanti, perché questa relazione funzioni.",
         en: ""
     },
     9: {
-        it: "",
+        it: "Il 9 pensa che il 5, amante della libertà, sia irresponsabile e l'idealismo del 9, appare superficiale al 5. Se un 5 ha una relazione con un 9, è probabile che ci siano altri numeri sulla mappa numerologica, responsabili dell'attrazione tra i loro. Dovranno scendere a compromessi ed essere molto diplomatici per far funzionare questa relazione.",
         en: ""
     }
   },
