@@ -130,55 +130,55 @@ const couples = {
   5: {
     5: {
         it: "Tra due 5 la relazione è compatibile, entrambi apprezzate la libertà, siete persone non convenzionali, attive, mutevoli, avventurose e amanti dei viaggi. Tutte queste caratteristiche sono buone per l'amicizia e gli affari. Solo pochi altri numeri sono aperti a nuove idee come lo sono i 5.",
-        en: ""
+        en: "Between two 5s the relationship is compatible, you both appreciate freedom, you are unconventional, active, changeable, adventurous and travel-loving people. All these features are good for friendship and business. Only a few other numbers are as open to new ideas as 5s are."
     },
     6: {
         it: "Tra il 5 e il 6 solitamente c'è molta sensualità e attrazione fisica. Il 5 è il numero della libertà, cambiamento, viaggio, avventura; il numero 6 rappresenta armonia, lealtà, buon senso ed equilibrio. La famiglia sarà sempre la priorità assoluta del numero 6. Questa relazione di solito, funziona bene, perché entrambe le parti hanno caratteristiche equilibrate che costituiscono le basi per una buona relazione. Potete completarvi a vicenda, ma solamente se entrambi siete disposti a scendere a compromessi. Se riusciste a trovare un modo per incontrarvi nel mezzo, potrebbe essere una relazione promettente.",
-        en: ""
+        en: "Between 5 and 6 there is usually a lot of sensuality and physical attraction. 5 is the number of freedom, change, travel, adventure; number 6 represents harmony, loyalty, common sense and balance. Family will always be number 6's top priority. Usually, this relationship works out well, because both parties have balanced characteristics that form the foundation for a good relationship. You can complement each other, but only if both of you are willing to compromise. If you can find a way to meet in the middle, it could be a promising relationship."
     },
     7: {
         it: "Quella tra il 5 e il 7 è una combinazione di due numeri che soddisfano i bisogni e i desideri dell'altro in molti modi. Mentre un 7 si gode del tempo da solo, il 5 libero apprezza la mancanza di richieste di attenzione da parte del suo partner. Quando sono insieme, la coppia è in grado di trovare interessi comuni da discutere ed esplorare, soprattutto a livello intellettuale e spirituale, rendendo questa una delle migliori combinazioni per una relazione duratura.",
-        en: ""
+        en: "The one between 5 and 7 is a combination of two numbers that meet each other's needs and desires in many ways. While a 7 enjoys alone time, the free 5 appreciates the lack of demands for attention from their partner. When they are together, the couple is able to find common interests to discuss and explore, especially on an intellectual and spiritual level, making this one of the best combinations for a long-lasting relationship."
     },
     8: {
         it: "Il 5 e l'8 non sono una buona combinazione. Mentre il 5 è dinamico e vuole essere libero da regole e restrizioni, l'8 è una figura forte e autorevole abituata ad essere il capo. Ci vorrà un'attenta pianificazione e compromesso, e ruoli molto diversi e distanti, perché questa relazione funzioni.",
-        en: ""
+        en: "5 and 8 are not a good combination. While the 5 is dynamic and wants to be free from rules and restrictions, the 8 is a strong, authority figure used to being the boss. It's going to take careful planning and compromise, and very different and distant roles, for this relationship to work."
     },
     9: {
         it: "Il 9 pensa che il 5, amante della libertà, sia irresponsabile e l'idealismo del 9, appare superficiale al 5. Se un 5 ha una relazione con un 9, è probabile che ci siano altri numeri sulla mappa numerologica, responsabili dell'attrazione tra i loro. Dovranno scendere a compromessi ed essere molto diplomatici per far funzionare questa relazione.",
-        en: ""
+        en: "The 9 thinks the freedom-loving 5 is irresponsible and the idealism of the 9, appears superficial to the 5. If a 5 is in a relationship with a 9, chances are there are other numbers on the numerological map, responsible for the attraction between them. They will have to compromise and be very diplomatic to make this relationship work."
     }
   },
   6: {
     6: {
         it: "Tra sue 6 si crea un abbinamento di numeri molto bello. Come qualsiasi altra relazione, ci saranno sempre momenti in cui gli ostacoli dovranno essere superati; tuttavia, a causa della natura armoniosa e amorevole del 6, questa è una combinazione che ha il potenziale per formare una relazione romantica forte e duratura.",
-        en: ""
+        en: "Among its 6, a very nice combination of numbers is created. Like any other relationship, there will always be times when obstacles need to be overcome; however, due to the harmonious and loving nature of the 6, this is a combination that has the potential to form a strong and lasting romantic relationship."
     },
     7: {
         it: "Dal momento che 6 e 7 rappresentano due persone con idee molto diverse, questa è spesso una combinazione difficile. La natura segreta e “distaccata” del 7, che richiede una certa distanza, non si adatta al bisogno del 6 che è quello di esprimere apertamente amore e affetto. Questo può portare a una spaccatura in cui il 6 si sente insicuro riguardo alla relazione e il 7 vede l'attenzione amorevole del 6 come una brutta distrazione creando un'atmosfera relazionale di odio-amore.",
-        en: ""
+        en: "Since 6 and 7 represent two people with very different ideas, this is often a difficult combination. The secretive and “detached” nature of the 7, which requires a certain distance, does not suit the need of the 6 which is to openly express love and affection. This can lead to a rift where the 6 feels insecure about the relationship and the 7 sees the loving attention of the 6 as an ugly distraction creating a love-hate relationship atmosphere."
     },
     8: {
         it: "Tra il 7 e l'8 c'è una buona compatibilità, entrambi pratici, orientati a raggiungere gli obbiettivi e responsabili. Il pericolo sta nei diversi modi in cui il 6 e l'8 vedono la responsabilità, e come raggiungono i loro obiettivi. Il 6 si concentra maggiormente sulla famiglia e sugli amici, mentre l'8 si concentra maggiormente sullo stile di vita esecutivo e sugli obblighi che ne derivano. Nonostante queste differenze, questa combinazione è buona.",
-        en: ""
+        en: "Between 7 and 8 there is a good compatibility, both practical, goal oriented and responsible. The danger lies in the different ways the 6 and 8 view responsibility, and how they achieve their goals. The 6 focuses more on family and friends, while the 8 focuses more on the executive lifestyle and the obligations that come with it. Despite these differences, this combination is a good one."
     },
     9: {
         it: "Il 9 e il 6 sono entrambi talentuosi, artistici, amorevoli. Avete il potenziale per trascorrere momenti felici e sereni insieme. Rappresentate una profonda connessione spirituale, sia negli affari, nell'amore e anche nel matrimonio. Tendete a creare un ambiente di reciproca ammirazione e un ambiente pacifico e sereno. Questa relazione è considerata molto compatibile.",
-        en: ""
+        en: "9 and 6 are both talented, artistic, loving. You have the potential to spend happy and peaceful moments together. You represent a deep spiritual connection, whether in business, love or even marriage. You tend to create an environment of mutual admiration and a peaceful and serene environment. This relationship is considered very compatible."
     }
   },
   7: {
     7: {
         it: "Nessuno conosce la psiche di un 7 meglio di un altro 7. È la perfetta combinazione di due persone che prendono sul serio i misteri della vita. Con il giusto atteggiamento esplorerete felicemente il mondo o trascorrerete giornate tranquille in solitudine assieme. È una bella combinazione, con un potenziale di crescita spirituale da entrambe le parti, a cui viene spesso applicato il termine “anima gemella”.",
-        en: ""
+        en: "No one knows the psyche of a 7 better than another 7. It's the perfect combination of two people who take life's mysteries seriously. With the right attitude, you will happily explore the world or spend quiet days alone together. It's a beautiful combination, with potential for spiritual growth on both sides, to which the term “soulmate” is often applied."
     },
     8: {
         it: "L'8 e il7 sono due numeri che non si attraggono né si respingono, ed è più comune che la coppia faccia più affidamento sul fisico che sull'emozione. Al 7 non piacciono le tendenze al controllo dell'8, e l'8 preferisce le questioni pratiche, piuttosto che la natura filosofica e spirituale del 7, che porta a frequenti litigi. Se la relazione funziona è molto probabile che ci sia l'influenza di altri numeri sulla mappa numerologica.",
-        en: ""
+        en: "8 and 7 are two numbers that neither attract nor repel each other, and it is more common for the couple to rely more on the physical than on the emotion. The 7 does not like the controlling tendencies of the 8, and the 8 prefers practical matters, rather than the philosophical and spiritual nature of the 7, which leads to frequent quarrels. If the relationship works it is very likely that there is the influence of other numbers on the numerological map."
     },
     9: {
         it: "Con il 9 la combinazione è alquanto neutra. Non c'è né simpatia, né antipatia tra voi. Le discussioni nascono quando le vostre posizioni su temi importanti, come ad esempio la religione e la spiritualità, sono in contrasto. Tra i lati positivi, grazie alle vostre energie uniche, è che ci sono pochissimi attriti e se nascono dei conflitti riuscite a gestirli in modo ragionevole.",
-        en: ""
+        en: "With the 9 the combination is somewhat neutral. There is neither sympathy nor antipathy between you. Arguments arise when your positions on important issues, such as religion and spirituality, are at odds. On the plus side, thanks to your unique energies, there is very little friction and if conflicts arise you can manage them sensibly."
     }
   },
   8: {

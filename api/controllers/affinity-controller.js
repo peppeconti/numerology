@@ -19,7 +19,6 @@ const calculateAffinity = async (req, res, next) => {
   const errors = validationResult(req);
   // console.log(errors);
   if (!errors.isEmpty()) {
-    console.log(errors.errors);
     const listedErrors = errors.errors.map((e) => e.msg);
     const error = new HttpError(listedErrors[0], listedErrors, 422);
     return next(error);
