@@ -151,33 +151,33 @@ const couples = {
   },
   6: {
     6: {
-        it: "",
+        it: "Tra sue 6 si crea un abbinamento di numeri molto bello. Come qualsiasi altra relazione, ci saranno sempre momenti in cui gli ostacoli dovranno essere superati; tuttavia, a causa della natura armoniosa e amorevole del 6, questa è una combinazione che ha il potenziale per formare una relazione romantica forte e duratura.",
         en: ""
     },
     7: {
-        it: "",
+        it: "Dal momento che 6 e 7 rappresentano due persone con idee molto diverse, questa è spesso una combinazione difficile. La natura segreta e “distaccata” del 7, che richiede una certa distanza, non si adatta al bisogno del 6 che è quello di esprimere apertamente amore e affetto. Questo può portare a una spaccatura in cui il 6 si sente insicuro riguardo alla relazione e il 7 vede l'attenzione amorevole del 6 come una brutta distrazione creando un'atmosfera relazionale di odio-amore.",
         en: ""
     },
     8: {
-        it: "",
+        it: "Tra il 7 e l'8 c'è una buona compatibilità, entrambi pratici, orientati a raggiungere gli obbiettivi e responsabili. Il pericolo sta nei diversi modi in cui il 6 e l'8 vedono la responsabilità, e come raggiungono i loro obiettivi. Il 6 si concentra maggiormente sulla famiglia e sugli amici, mentre l'8 si concentra maggiormente sullo stile di vita esecutivo e sugli obblighi che ne derivano. Nonostante queste differenze, questa combinazione è buona.",
         en: ""
     },
     9: {
-        it: "",
+        it: "Il 9 e il 6 sono entrambi talentuosi, artistici, amorevoli. Avete il potenziale per trascorrere momenti felici e sereni insieme. Rappresentate una profonda connessione spirituale, sia negli affari, nell'amore e anche nel matrimonio. Tendete a creare un ambiente di reciproca ammirazione e un ambiente pacifico e sereno. Questa relazione è considerata molto compatibile.",
         en: ""
     }
   },
   7: {
     7: {
-        it: "",
+        it: "Nessuno conosce la psiche di un 7 meglio di un altro 7. È la perfetta combinazione di due persone che prendono sul serio i misteri della vita. Con il giusto atteggiamento esplorerete felicemente il mondo o trascorrerete giornate tranquille in solitudine assieme. È una bella combinazione, con un potenziale di crescita spirituale da entrambe le parti, a cui viene spesso applicato il termine “anima gemella”.",
         en: ""
     },
     8: {
-        it: "",
+        it: "L'8 e il7 sono due numeri che non si attraggono né si respingono, ed è più comune che la coppia faccia più affidamento sul fisico che sull'emozione. Al 7 non piacciono le tendenze al controllo dell'8, e l'8 preferisce le questioni pratiche, piuttosto che la natura filosofica e spirituale del 7, che porta a frequenti litigi. Se la relazione funziona è molto probabile che ci sia l'influenza di altri numeri sulla mappa numerologica.",
         en: ""
     },
     9: {
-        it: "",
+        it: "Con il 9 la combinazione è alquanto neutra. Non c'è né simpatia, né antipatia tra voi. Le discussioni nascono quando le vostre posizioni su temi importanti, come ad esempio la religione e la spiritualità, sono in contrasto. Tra i lati positivi, grazie alle vostre energie uniche, è che ci sono pochissimi attriti e se nascono dei conflitti riuscite a gestirli in modo ragionevole.",
         en: ""
     }
   },
