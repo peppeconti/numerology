@@ -82,11 +82,11 @@ const couples = {
     },
     5: {
         it: "L'adattabile e avventuroso 5 si adatta al bisogno d'imprevedibilità e avventura del 3. Siete entrambi buoni comunicatori (questa è salvezza della relazione), e le vostre abilità linguistiche fanno di voi una bella coppia; tuttavia, poiché a entrambi piace essere al centro della scena, potreste sviluppare un senso di atmosfera competitiva con il rischio di diventare gelosi l'uno dell'altro.",
-        en: ""
+        en: "The adaptable and adventurous 5 fits the 3's need for unpredictability and adventure. You are both good communicators (this is the lifesaver of the relationship), and your language skills make you a good match; however, since you both like to be center stage, you may develop a sense of a competitive atmosphere at the risk of becoming jealous of each other."
     },
     6: {
         it: "Tra il 6 e il 3 c'è il potenziale per essere una coppia creativa con una vita sociale attiva. Il 3 con il suo entusiasmo e senso dell'umorismo, e il 6 con calore, supporto e amore disinteressato, rendono questa combinazione una squadra ideale per eccellere nella maggior parte delle situazioni. La chimica qui è forte, ma mentre le emozioni non mancano, la trappola qui potrebbe essere l'eccessivo legame emotivo che i 6 sperimentano. Toccherà al 6 imparare a fare i conti con la sua gelosia innata, quindi imparare a lasciare al 3 abbastanza spazio e libertà per muoversi e respirare.",
-        en: ""
+        en: "Between 6 and 3 is the potential to be a creative couple with an active social life. The 3 with its enthusiasm and sense of humour, and the 6 with warmth, support and selfless love, make this combination an ideal team to excel in most situations. The chemistry here is strong, but while emotions are not lacking, the pitfall here may be the excessive emotional bonding the 6s experience. It will be up to 6 to learn to deal with his innate jealousy, then learn to leave enough space and freedom for 3 to move and breathe."
     },
     7: {
         it: "Il 7 e il 3 sono due numeri naturalmente attratti l'uno verso l'altro. Il  3 rappresenta la comunicazione mentre il numero 7 raffigura il sacrificio. Questa associazione è ottima per una relazione, perché rappresenta il rispetto reciproco, l'amore, la comprensione e una buona atmosfera familiare. I due numeri sono diametralmente opposti e alcuni li considerano incompatibili. Ma è questa natura opposta ad attrarre le due persone. La chiave del successo sta nella conversazione onesta su bisogni, desideri e obiettivi di ognuno.",
@@ -94,7 +94,7 @@ const couples = {
     },
     8: {
         it: "L'8 è ambizioso, materialista, forte energico e cerca il potere. Il 3 è incline a socializzare, è amante del lusso, schietto, audace e artistico.  Entrambi tendono ad essere egoisti ed è difficile mantenere la pace nel rapporto tra i due. Per una relazione stabile, il temperamento deve essere equilibrato. Senza gli sforzi di entrambe le parti, la relazione potrebbe finire presto.",
-        en: ""
+        en: "Il 7 e il 3 sono due numeri naturalmente attratti l'uno verso l'altro. Il  3 rappresenta la comunicazione mentre il numero 7 raffigura il sacrificio. Questa associazione è ottima per una relazione, perché rappresenta il rispetto reciproco, l'amore, la comprensione e una buona atmosfera familiare. I due numeri sono diametralmente opposti e alcuni li considerano incompatibili. Ma è questa natura opposta ad attrarre le due persone. La chiave del successo sta nella conversazione onesta su bisogni, desideri e obiettivi di ognuno."
     },
     9: {
         it: "Il 9 e il 3 sono una combinazione di due persone che, attraverso la loro potente immaginazione, sono in grado di impegnarsi continuamente in una varietà di modi creativi. Entrambi siete artistici, fantasiosi, accomodanti, ottimisti e positivi. Le vostre caratteristiche e i vostri interessi sono quasi simili. Questa combinazione riflette un'eccellente compatibilità.",
@@ -104,27 +104,27 @@ const couples = {
   4: {
     4: {
         it: "Tra numeri 4 ci può essere stabilità; tuttavia, a causa della vostra natura, potreste diventare un po' irrequieti quando la routine stabilita viene interrotta. Ciò può portare a una relazione molto buona, o molto stressante. Gli aspetti positivi di questo abbinamento sono stabilità e sicurezza… il rovescio della medaglia è che c'è difficoltà a rilassarsi, a essere spontanei e godersi il momento.",
-        en: ""
+        en: "The 9 and 3 are a combination of two people who, through their powerful imaginations, are able to continually engage in a variety of creative ways. Both of you are artistic, imaginative, easy-going, optimistic, and positive. Your characteristics and interests are almost similar. This combination reflects excellent compatibility."
     },
     5: {
         it: "Questa  relazione potrebbe risultare impegnativa, il 4 e il 5 sono ai poli opposti l'uno dell'altro. Il 4 ama la routine e la prevedibilità, Il 5 ama il cambiamento e la sorpresa, l'unico modo in cui questa coppia può sopravvivere è accettarsi l'un l'altro per quello che sono e rispettare le loro differenze invece di cercare di cambiare il proprio partner.",
-        en: ""
+        en: "This relationship could prove challenging, the 4 and 5 are polar opposites of each other. 4 loves routine and predictability, 5 loves change and surprise, the only way this couple can survive is to accept each other for who they are and respect their differences instead of trying to change your partner."
     },
     6: {
         it: "Il 6 e il 4 hanno tratti comuni condivisi ma, nonostante queste somiglianze, non è comune che il 4 e il 6 si innamorino. Tuttavia, poiché il 6 è coscienzioso e orientato alla famiglia, ed entrambi amate la stabilità e la sicurezza, se entrate in una relazione romantica, c'è il potenziale di creare una relazione di coppia solida e tranquilla.",
-        en: ""
+        en: "The 6 and 4 have shared common traits but despite these similarities, it is not common for the 4 and 6 to fall in love. However, since the 6 is conscientious and family oriented, and you both love stability and security, if you enter a romantic relationship, there is the potential to create a solid and smooth relationship as a couple."
     },
     7: {
         it: "Con il  7 spirituale e introspettivo, assieme al 4 concreto e stabile, create una buona combinazione “<i>l'unione del cielo e della terra</i>”, non potete esistere l'uno senza l'altro. Ci sono alcuni angoli da smussare, tuttavia questo abbinamento vi rende la vita più sicura è più divertente per entrambi, rendendo più facile superare le sfide che si possono presentare.",
-        en: ""
+        en: "With the spiritual and introspective 7, together with the concrete and stable 4, you create a good combination “<i>the union of heaven and earth</i>”, you cannot exist without each other. There are some corners to be rounded, however this pairing makes life safer and more enjoyable for both of you, making it easier to overcome any challenges that may arise."
     },
     8: {
         it: "L'8 e il 4 sono un bel mix, non solo nel romanticismo ma anche negli affari. Entrambi sono laboriosi, intelligenti, professionali e ambiziosi. Pertanto, questa combinazione è buona per il matrimonio. Molto simili tra loro, sanno come costruire e far crescere una relazione solida per il futuro. Tuttavia, come con qualsiasi altra combinazione di numeri, possono esserci problemi come, ad esempio, trovare il tempo per il romanticismo.",
-        en: ""
+        en: "8 and 4 are a nice mix, not only in romance but in business as well. Both are hardworking, intelligent, professional and ambitious. Therefore, this combination is good for marriage. Very similar to each other, they know how to build and grow a solid relationship for the future. However, as with any other combination of numbers, there can be problems such as, for example, finding time for romance."
     },
     9: {
         it: "L'abbinamento tra il 9 e il 4 ha raramente successo. Tra di voi ci sono differenze importanti che entrambi dovete risolvere e accettare se volete che la relazione duri. Se hai una relazione di successo, questo di solito indica che hai altri numeri nella tua mappa numerologica che svolgono un ruolo abbastanza significativo da superare questa particolare combinazione incompatibile.",
-        en: ""
+        en: "Pairing between 9 and 4 is rarely successful. There are important differences between you that you both need to resolve and accept if you want the relationship to last. If you are in a successful relationship, this usually indicates that you have other numbers in your numerology map that play a significant enough role to overcome this particular incompatible combination."
     }
   },
   5: {

@@ -31,6 +31,7 @@ app.use((error, req, res, next) => {
         status: false,
         error: {
             message: error.message,
+            messages: error.messages,
             code: error.code || 500
         }
     });
