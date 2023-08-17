@@ -21,11 +21,11 @@ app.use("/api/affinity", affinityRoutes);
 
 // ROUTE NOT FOUND
 app.use((req, res, next) => {
-    const error = new HttpError("Could not find this route", 404);
+    const error = new HttpError("Could not find this route", ["Could not find this route"], 404);
     throw error;
   });
 // GENERAL ERROR HANDLING
-app.use((error, req, res, next) => {
+app.use('/api', (error, req, res, next) => {
     res.status(error.code || 500);
     res.json({
         status: false,
@@ -35,6 +35,11 @@ app.use((error, req, res, next) => {
             code: error.code || 500
         }
     });
+});
+
+app.use('/', (error, req, res, next) => {
+    res.status(error.code || 500);
+    res.write('<h1>ci</h1>')
 });
 
 module.exports = app;

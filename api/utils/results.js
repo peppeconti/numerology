@@ -10,7 +10,7 @@ const couples = {
     },
     3: {
       it: "Il 3 va particolarmente d'accordo con il lato più serio e goffo dell'1, riesce inoltre a ignorare il desiderio di quest'ultimo di essere al comando.  Ci sono pochi punti negativi sulla compatibilità di questa relazione. Il suggerimento è quello di continuare a esplorare le qualità naturali di ciascuno e di godervi una vita felice. Avete il potere di sviluppare la vostra relazione fino alla (quasi) perfezione.",
-      en: "Il 3 va particolarmente d'accordo con il lato più serio e goffo dell'1, riesce inoltre a ignorare il desiderio di quest'ultimo di essere al comando.  Ci sono pochi punti negativi sulla compatibilità di questa relazione. Il suggerimento è quello di continuare a esplorare le qualità naturali di ciascuno e di godervi una vita felice. Avete il potere di sviluppare la vostra relazione fino alla (quasi) perfezione.",
+      en: "The 3 gets along particularly well with the more serious and awkward side of the 1, and also manages to ignore the latter's desire to be in charge. There are few negative points about the compatibility of this relationship. The suggestion is to continue to explore the natural qualities of each and enjoy a happy life. You have the power to develop your relationship to (almost) perfection.",
     },
     4: {
       it: "Il 4 è sicuramente compatibie con l'1, stabile, affidabile e responsabile; tuttavia sarebbe ancora meglio se il 4 avesse, nella propria mappa numerologica, anche dei numeri più divertenti e avventurosi.",
