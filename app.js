@@ -39,7 +39,7 @@ app.use('/api', (error, req, res, next) => {
 
 app.use('/', (error, req, res, next) => {
     res.status(error.code || 500);
-    res.write('<h1>ci</h1>')
+    res.send('<h1>ciao</h1>')
 });
 
 module.exports = app;
