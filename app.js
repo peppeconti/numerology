@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require('path');
 const cors = require("cors");
 require('dotenv').config();
 const HttpError = require("./models/http-error");
@@ -13,6 +14,7 @@ const affinityRoutes = require("./api/routes/affinity-route");
 const app = express();
 
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(cors());
 
@@ -39,7 +41,7 @@ app.use('/api', (error, req, res, next) => {
 
 app.use('/', (error, req, res, next) => {
     res.status(error.code || 500);
-    res.send('<h1>ciao</h1>')
+    res.sendFile(path.join(__dirname, 'views', '404.html'));
 });
 
 module.exports = app;
