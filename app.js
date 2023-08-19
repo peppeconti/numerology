@@ -1,9 +1,9 @@
 const express = require("express");
 const path = require('path');
+const favicon = require('express-favicon');
 const cors = require("cors");
 require('dotenv').config();
 const HttpError = require("./models/http-error");
-
 
 // BODYPARSER
 const bodyParser = require("body-parser");
@@ -15,10 +15,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
-
-app.get('/favicon.ico', (req, res) => {
-    res.sendFile(path.join(__dirname, 'assets', 'favicon.ico'));
-})
+app.use(favicon(__dirname + '/assets/icons.png'));
 
 app.use(cors());
 
