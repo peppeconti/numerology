@@ -15,15 +15,19 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "public")));
-app.use(favicon(__dirname + "/assets/icons.png"));
+app.use(favicon(__dirname + "/assets/favicon.ico"));
 
 app.use(cors());
 
 // ROUTES
 app.use("/api/affinity", affinityRoutes);
+app.use("/", (req, res, next) => {
+  res.status(200);
+  res.sendFile(path.join(__dirname, "views", "index.html"));
+});
 
 // ROUTE NOT FOUND
-app.use((req, res, next) => {
+app.use("*",(req, res, next) => {
   const error = new HttpError(
     "Could not find this route",
     ["Could not find this route"],
