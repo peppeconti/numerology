@@ -1,6 +1,5 @@
 .header {
-    height: 60px;
-    padding: 5px 60px;
+    padding: 0px 60px;
     background-color: #333;
     display: flex;
     align-items: center;
@@ -8,13 +7,17 @@
 
 .nav ul {
     display: flex;
-    gap: 30px;
 }
 
 .nav ul li {
     color: #fff;
     list-style: none;
-    background-color: #504242;
+    padding: 20px 15px;
+
+}
+
+.nav ul li:hover  {
+    background-color: #161616;
 }
 
 a {
