@@ -10,10 +10,7 @@
 }
 
 .nav ul li {
-    color: #fff;
     list-style: none;
-    padding: 20px 15px;
-
 }
 
 .nav ul li:hover  {
@@ -21,5 +18,8 @@
 }
 
 a {
+    display: block;
+    color: #fff;
+    padding: 15px;
     text-decoration: none;
 }
