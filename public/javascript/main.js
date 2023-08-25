@@ -1,4 +1,4 @@
-!function ($) {
+/*!function ($) {
     $(function () {
         $('nav li a').click(function () {
             var a = $(this);
@@ -14,4 +14,20 @@
             return false
         });
     })
-} (window.jQuery);
+} (window.jQuery);*/
+
+document.addEventListener("DOMContentLoaded", () => {
+  const anchors = document.querySelectorAll("nav li a");
+  console.log(anchors);
+  Array.from(anchors).forEach((e) => {
+    e.addEventListener("click", () => {
+      if (e.attributes.href.value === "#top") {
+        console.log('co')
+      } else {
+        console.log(e.attributes.href.value)
+        console.log(document.getElementById(e.getAttribute( "href" ).substring(1)))
+      }
+      return false;
+    });
+  });
+});
