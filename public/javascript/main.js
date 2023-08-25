@@ -17,17 +17,20 @@
 } (window.jQuery);*/
 
 document.addEventListener("DOMContentLoaded", () => {
-  const anchors = document.querySelectorAll("nav li a");
-  console.log(anchors);
-  Array.from(anchors).forEach((e) => {
-    e.addEventListener("click", () => {
-      if (e.attributes.href.value === "#top") {
-        console.log('co')
-      } else {
-        console.log(e.attributes.href.value)
-        console.log(document.getElementById(e.getAttribute( "href" ).substring(1)))
-      }
-      return false;
+  const links = document.querySelectorAll("nav li a");
+
+  for (const link of links) {
+    link.addEventListener("click", clickHandler);
+  }
+
+  function clickHandler(e) {
+    e.preventDefault();
+    const href = this.getAttribute("href");
+    const offsetTop = document.querySelector(href).offsetTop;
+
+    scroll({
+      top: offsetTop - 50,
+      behavior: "smooth",
     });
-  });
+  }
 });
