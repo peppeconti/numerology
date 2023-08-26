@@ -17,20 +17,20 @@
 } (window.jQuery);*/
 
 document.addEventListener("DOMContentLoaded", () => {
-  const links = document.querySelectorAll("nav li a");
+  const links = document.querySelectorAll(".nav__bar li a");
 
-  for (const link of links) {
-    link.addEventListener("click", clickHandler);
-  }
-
-  function clickHandler(e) {
+  const clickHandler = (e) => {
     e.preventDefault();
-    const href = this.getAttribute("href");
+    const href = e.target.getAttribute("href");
     const offsetTop = document.querySelector(href).offsetTop;
 
     scroll({
       top: offsetTop - 50,
       behavior: "smooth",
     });
+  };
+
+  for (const link of links) {
+    link.addEventListener("click", clickHandler);
   }
 });
