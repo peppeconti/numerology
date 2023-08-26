@@ -27,12 +27,11 @@ a {
     display: block;
     color: #fff;
     padding: 15px 20px;
-    font-size: 16px;
     text-decoration: none;
 }
 
 .nav__bar ul li:first-child {
-    margin-left: -20px;
+    margin-left: -14px;
 }
 
 .nav__bar ul li:first-child:hover {
@@ -42,9 +41,25 @@ a {
 .section {
     height: 75vh;
     padding: 0 100px;
-    font-size: 2rem;
-    border: 1px solid black;
 }
 
 h1, h2 {
+    font-weight: normal;
+    font-size: 3.8rem;
+    margin-bottom: 25px;
+}
+
+h2 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.routes p {
+    margin-bottom: 20px;
+}
+
+.routes pre {
+    padding: 15px 10px;
+    background-color: #ebebeb;
+    border: 1px solid #c7c7c7;
 }
