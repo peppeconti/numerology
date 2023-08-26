@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const offsetTop = document.querySelector(href).offsetTop;
 
     scroll({
-      top: offsetTop - 50,
+      top: offsetTop - 100,
       behavior: "smooth",
     });
   };

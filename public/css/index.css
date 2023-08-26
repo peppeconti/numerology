@@ -1,10 +1,14 @@
 .header {
-    padding: 0px 60px;
+    padding: 0px 100px;
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     position: fixed;
+}
+
+main {
+    padding-top: 100px;
 }
 
 .nav__bar ul {
@@ -22,13 +26,25 @@
 a {
     display: block;
     color: #fff;
-    padding: 15px;
+    padding: 15px 20px;
+    font-size: 16px;
     text-decoration: none;
+}
+
+.nav__bar ul li:first-child {
+    margin-left: -20px;
+}
+
+.nav__bar ul li:first-child:hover {
+    background-color: transparent;
 }
 
 .section {
     height: 75vh;
-    padding-top: 46px;
-    text-align: center;
+    padding: 0 100px;
     font-size: 2rem;
+    border: 1px solid black;
+}
+
+h1, h2 {
 }
