@@ -103,6 +103,14 @@ tbody tr:nth-child(odd) {
     .header, .section {
         padding: 0 50px;
     }
+
+    table {
+        font-size: .9rem;
+    }
+
+    th, td {
+        padding: 12px 8px;
+    }
     
   }
 
