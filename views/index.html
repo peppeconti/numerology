@@ -115,10 +115,22 @@
       </section>
       <section id="examples" class="section">
         <h2>Examples</h2>
+        <form id="affinity">
+          <legend>Affinity calculation</legend>
+          <div class="inputs">
+            <label for="her">Her:</label>
+            <input type="text" id="her" name="her"/>
+            <label for="him">Him:</label>
+            <input type="text" id="him" name="him"/>
+            <label for="lan">Language:</label>
+            <input type="text" id="lan" name="lan"/>
+            <button type="submit">Search</button>
+          </div>
+        </form>
+        <div id="affinity__response"></div>
       </section>
       <section class="section"></section>
     </main>
-    <script src="/javascript/jquery.js"></script>
-    <script src="/javascript/main.js"></script>
+    <script type="module" src="/javascript/main.js"></script>
   </body>
 </html>

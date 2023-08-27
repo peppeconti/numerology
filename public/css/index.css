@@ -99,6 +99,25 @@ tbody tr:nth-child(odd) {
     background-color: #ebebeb;
   }
 
+  #examples form {
+    padding: 28px 22px;
+    background-color: #ebebeb;
+  }
+
+  #examples form legend {
+    font-size: 1.2rem;
+    padding-bottom: 18px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #c7c7c7;
+  }
+
+  #affinity__response pre {
+    padding: 1rem;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: red;
+  }
+
 @media screen and (max-width: 1066px) {
     .header, .section {
         padding: 0 50px;
