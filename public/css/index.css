@@ -82,15 +82,17 @@ h2 {
 table {
     border: 1px solid #c7c7c7;
     width: 100%;
+    border-spacing: 0;
 }
 
 table th {
     text-align: left;
+    text-transform: capitalize;
 }
 
 th, td {
     padding: 15px 10px;
-    /*border: 1px solid #c7c7c7;*/
+    border: 1px solid #c7c7c7;
 }
 
 tbody tr:nth-child(odd) {
