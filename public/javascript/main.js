@@ -7,7 +7,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
   affinity.addEventListener("submit", submit);
 
-  let herValue = "";
+  const affinity__values = {};
+
+  [her, him, lan].forEach((input) => {
+    input.addEventListener(
+      "input",
+      (e) => {
+        if (e.target.value.length) affinity__values[input.name] = e.target.value;
+        if (!e.target.value.length) delete affinity__values[input.name];
+        console.log(affinity__values);
+      }
+    );
+  });
+
+  /*let herValue = "";
   let himValue = "";
   let lanValue = "";
 
@@ -24,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
   lan.addEventListener("input", (e) => {
     lanValue = e.target.value;
     console.log(lanValue);
-  });
+  });*/
 
   // SCROLL
   const links = document.querySelectorAll(".nav__bar li a");
@@ -48,10 +61,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   async function submit(e) {
     e.preventDefault();
-    const uri = `https://numerology-mpm7.onrender.com/api/affinity?her=${herValue}&him=${himValue}`;
+    console.log(window.location.origin);
+    const uri = `${window.location.origin}/api/affinity?her=${herValue}&him=${himValue}`;
     const response = await fetch(uri);
     const affinity = await response.json();
 
-    affinity__response.innerHTML = `<pre>${JSON.stringify(affinity)}</pre>`
+    affinity__response.innerHTML = `<pre>${JSON.stringify(affinity)}</pre>`;
   }
 });
