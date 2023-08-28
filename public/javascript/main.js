@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const him = document.getElementById("him");
   const lan = document.getElementById("lan");
   const affinity = document.getElementById("affinity");
-  const affinity__response = document.getElementById("affinity__response");
+  const affinityRequest = document.querySelector("#affinity .request");
 
   affinity.addEventListener("submit", submit);
 
@@ -37,22 +37,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // FETCH
 
-  async function submit(e) {
+  const preTemplate = (request) =>
+    `<h3>Request:</h3><pre><a href="${request}" target="_blank">${request}</a></pre>`;
 
+  async function submit(e) {
     e.preventDefault();
 
-    let values =[];
-  
+    let values = [];
+
     for (const property in affinity__values) {
       let param = `${property}=${affinity__values[property]}`;
       values.push(param);
     }
-    
-    const uri = `${window.location.origin}/api/affinity?${values.join('&')}`;
+
+    const uri = `${window.location.origin}/api/affinity?${values.join("&")}`;
     console.log(uri);
-    /*const response = await fetch(uri);
+    const response = await fetch(uri);
     const affinity = await response.json();
 
-    affinity__response.innerHTML = `<pre>${JSON.stringify(affinity)}</pre>`;*/
+    affinityRequest.classList.remove('hide');
+    affinityRequest.innerHTML = preTemplate(uri);
   }
 });
