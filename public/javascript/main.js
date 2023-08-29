@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const lan = document.getElementById("lan");
   const affinity = document.getElementById("affinity");
   const affinityRequest = document.querySelector("#affinity .request");
+  const affinityResponse = document.querySelector("#affinity .response");
 
   affinity.addEventListener("submit", submit);
 
@@ -40,6 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const preTemplate = (request) =>
     `<h3>Request:</h3><pre><a href="${request}" target="_blank">${request}</a></pre>`;
 
+  const responseTemplate = (response) =>
+    `<h3>Response:</h3><pre>${response}</pre>`;
+
   async function submit(e) {
     e.preventDefault();
 
@@ -52,10 +56,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const uri = `${window.location.origin}/api/affinity?${values.join("&")}`;
     console.log(uri);
+
+    // ELABORATING REQUEST
+
+    affinityRequest.classList.remove("hide");
+    affinityRequest.innerHTML = preTemplate(uri);
+    affinityResponse.classList.remove("hide");
+    affinityResponse.innerHTML = `<div class="lds-ellipsis"><div></div><div></div><div></div>`;
+
     const response = await fetch(uri);
     const affinity = await response.json();
 
-    affinityRequest.classList.remove('hide');
-    affinityRequest.innerHTML = preTemplate(uri);
+    affinityResponse.innerHTML = responseTemplate(JSON.stringify(affinity));
   }
 });
