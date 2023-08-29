@@ -41,8 +41,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const preTemplate = (request) =>
     `<h3>Request:</h3><pre><a href="${request}" target="_blank">${request}</a></pre>`;
 
-  const responseTemplate = (response) =>
-    `<h3>Response:</h3><pre>${response}</pre>`;
+  const responseTemplate = (response,state) =>
+    `<h3>Response: ${state ? '<span style=color:green>V</span>' : '<span style=color:red>X</span>'}</h3><pre>${response}</pre>`;
 
   async function submit(e) {
     e.preventDefault();
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(
       () =>
         (affinityResponse.innerHTML = responseTemplate(
-          JSON.stringify(affinity)
+          JSON.stringify(affinity), affinity.status
         )),
       3000
     );
