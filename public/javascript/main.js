@@ -67,6 +67,30 @@ document.addEventListener("DOMContentLoaded", () => {
     const response = await fetch(uri);
     const affinity = await response.json();
 
-    affinityResponse.innerHTML = responseTemplate(JSON.stringify(affinity));
+    setTimeout(
+      () =>
+        (affinityResponse.innerHTML = responseTemplate(
+          JSON.stringify(affinity)
+        )),
+      3000
+    );
+  }
+
+  // RESETTING
+
+  const reset = document.querySelector("button[type=button]");
+
+  reset.addEventListener("click", resetQuery);
+
+  function resetQuery() {
+    affinityRequest.classList.add("hide");
+    affinityResponse.classList.add("hide");
+    affinityRequest.innerHTML = "";
+    affinityResponse.innerHTML = "";
+
+    [her, him, lan].forEach((input) => {
+      input.value = "";
+      delete affinity__values[input.name]
+    });
   }
 });
