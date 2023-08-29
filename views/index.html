@@ -43,7 +43,7 @@
       </section>
       <section id="params" class="section">
         <h2>Parameters</h2>
-        <div class="flex">
+        <div class="flex-column">
           <div class="parameters">
             <h3>Affinity calculation</h3>
             <table>
@@ -115,9 +115,10 @@
       </section>
       <section id="examples" class="section">
         <h2>Examples</h2>
-        <form id="affinity">
+        <form id="affinity" class="flex-column">
           <legend class="margin">Affinity calculation</legend>
-          <div class="inputs margin">
+          <div class="flex-column margin">
+            <div class="inputs">
             <p class="input">
               <label for="her">Her:</label>
               <input type="text" id="her" name="her" />
@@ -130,8 +131,11 @@
               <label for="lan">Language:</label>
               <input type="text" id="lan" name="lan" />
             </p>
-            <button type="submit">Search</button>
-            <button type="button">Reset</button>
+            </div>
+            <div class="buttons">
+              <button type="submit">Search</button>
+              <button type="button">Reset</button>
+            </div>
           </div>
           <div class="request hide"></div>
           <div class="response hide"></div>

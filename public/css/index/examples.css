@@ -1,7 +1,5 @@
 #affinity {
   padding: 28px 22px;
-  display: flex;
-  flex-direction: column;
   background-color: #ebebeb;
   gap: 28px;
 }
@@ -16,6 +14,22 @@
   padding-bottom: 28px;
   border-bottom: 1px solid #c7c7c7;
 }
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.input {
+  width: 25%;
+}
+
+.buttons button {
+  flex: 1;
+}
+
+
 
 .request h3, .response h3 {
   margin-bottom: 20px;
