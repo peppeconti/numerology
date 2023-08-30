@@ -1,8 +1,14 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #181818;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  color: #181818;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
