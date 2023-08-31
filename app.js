@@ -21,13 +21,13 @@ app.use(cors());
 
 // ROUTES
 
-
 app.use("/api/affinity", affinityRoutes);
 
-app.use("*", (req, res, next) => {
+app.get("/", (req, res, next) => {
   res.status(200);
   res.sendFile(path.join(__dirname, "views", "index.html"));
 });
+
 
 
 app.use((req, res, next) => {
