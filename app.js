@@ -22,21 +22,12 @@ app.use(cors());
 // ROUTES
 
 
-
 app.use("/api/affinity", affinityRoutes);
 
-app.use(/.*fish$/, (req, res, next) => {
+app.use("*", (req, res, next) => {
   res.status(200);
   res.sendFile(path.join(__dirname, "views", "index.html"));
 });
-
-app.use("/", (req, res, next) => {
-  res.status(400);
-  res.sendFile(path.join(__dirname, "views", "404.html"));
-});
-
-
-
 
 
 app.use((req, res, next) => {
@@ -48,7 +39,7 @@ app.use((req, res, next) => {
   throw error;
 });
 
-app.use("/api/*", (error, req, res, next) => {
+app.use("/api", (error, req, res, next) => {
   res.status(error.code || 500);
   res.json({
     status: false,
@@ -58,6 +49,11 @@ app.use("/api/*", (error, req, res, next) => {
       code: error.code || 500,
     },
   });
+});
+
+app.use("/", (error, req, res, next) => {
+  res.status(400);
+  res.sendFile(path.join(__dirname, "views", "404.html"));
 });
 
 module.exports = app;
