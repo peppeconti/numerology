@@ -28,8 +28,6 @@ app.get("/", (req, res, next) => {
   res.sendFile(path.join(__dirname, "views", "index.html"));
 });
 
-
-
 app.use((req, res, next) => {
   const error = new HttpError(
     "Could not find this route",
@@ -51,7 +49,7 @@ app.use("/api", (error, req, res, next) => {
   });
 });
 
-app.use("/", (error, req, res, next) => {
+app.use((error, req, res, next) => {
   res.status(400);
   res.sendFile(path.join(__dirname, "views", "404.html"));
 });
