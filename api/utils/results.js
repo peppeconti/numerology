@@ -90,15 +90,15 @@ const couples = {
     },
     7: {
         it: "Il 7 e il 3 sono due numeri naturalmente attratti l'uno verso l'altro. Il  3 rappresenta la comunicazione mentre il numero 7 raffigura il sacrificio. Questa associazione è ottima per una relazione, perché rappresenta il rispetto reciproco, l'amore, la comprensione e una buona atmosfera familiare. I due numeri sono diametralmente opposti e alcuni li considerano incompatibili. Ma è questa natura opposta ad attrarre le due persone. La chiave del successo sta nella conversazione onesta su bisogni, desideri e obiettivi di ognuno.",
-        en: ""
+        en: "7 and 3 are two numbers naturally attracted to each other. The 3 represents communication while the number 7 represents sacrifice. This association is great for a relationship, because it represents mutual respect, love, understanding and a good family atmosphere. The two numbers are diametrically opposed and some consider them incompatible. But it is this opposing nature that attracts the two people. The key to success lies in honest conversations about one's needs, wants, and goals."
     },
     8: {
         it: "L'8 è ambizioso, materialista, forte energico e cerca il potere. Il 3 è incline a socializzare, è amante del lusso, schietto, audace e artistico.  Entrambi tendono ad essere egoisti ed è difficile mantenere la pace nel rapporto tra i due. Per una relazione stabile, il temperamento deve essere equilibrato. Senza gli sforzi di entrambe le parti, la relazione potrebbe finire presto.",
-        en: "Il 7 e il 3 sono due numeri naturalmente attratti l'uno verso l'altro. Il  3 rappresenta la comunicazione mentre il numero 7 raffigura il sacrificio. Questa associazione è ottima per una relazione, perché rappresenta il rispetto reciproco, l'amore, la comprensione e una buona atmosfera familiare. I due numeri sono diametralmente opposti e alcuni li considerano incompatibili. Ma è questa natura opposta ad attrarre le due persone. La chiave del successo sta nella conversazione onesta su bisogni, desideri e obiettivi di ognuno."
+        en: "The 8 is ambitious, materialistic, strong energetic and seeks power. 3 is prone to socializing, is a lover of luxury, outspoken, daring and artistic. Both tend to be selfish and it is difficult to maintain peace in the relationship between the two. For a stable relationship, the temperament must be balanced. Without the efforts of both parties, the relationship could end soon."
     },
     9: {
         it: "Il 9 e il 3 sono una combinazione di due persone che, attraverso la loro potente immaginazione, sono in grado di impegnarsi continuamente in una varietà di modi creativi. Entrambi siete artistici, fantasiosi, accomodanti, ottimisti e positivi. Le vostre caratteristiche e i vostri interessi sono quasi simili. Questa combinazione riflette un'eccellente compatibilità.",
-        en: ""
+        en: "The 9 and 3 are a combination of two people who, through their powerful imaginations, are able to continually engage in a variety of creative ways. Both of you are artistic, imaginative, easy-going, optimistic, and positive. Your characteristics and interests are almost similar. This combination reflects excellent compatibility."
     }
   },
   4: {
@@ -173,7 +173,7 @@ const couples = {
         en: "No one knows the psyche of a 7 better than another 7. It's the perfect combination of two people who take life's mysteries seriously. With the right attitude, you will happily explore the world or spend quiet days alone together. It's a beautiful combination, with potential for spiritual growth on both sides, to which the term “soulmate” is often applied."
     },
     8: {
-        it: "L'8 e il7 sono due numeri che non si attraggono né si respingono, ed è più comune che la coppia faccia più affidamento sul fisico che sull'emozione. Al 7 non piacciono le tendenze al controllo dell'8, e l'8 preferisce le questioni pratiche, piuttosto che la natura filosofica e spirituale del 7, che porta a frequenti litigi. Se la relazione funziona è molto probabile che ci sia l'influenza di altri numeri sulla mappa numerologica.",
+        it: "L'8 e il 7 sono due numeri che non si attraggono né si respingono, ed è più comune che la coppia faccia più affidamento sul fisico che sull'emozione. Al 7 non piacciono le tendenze al controllo dell'8, e l'8 preferisce le questioni pratiche, piuttosto che la natura filosofica e spirituale del 7, che porta a frequenti litigi. Se la relazione funziona è molto probabile che ci sia l'influenza di altri numeri sulla mappa numerologica.",
         en: "8 and 7 are two numbers that neither attract nor repel each other, and it is more common for the couple to rely more on the physical than on the emotion. The 7 does not like the controlling tendencies of the 8, and the 8 prefers practical matters, rather than the philosophical and spiritual nature of the 7, which leads to frequent quarrels. If the relationship works it is very likely that there is the influence of other numbers on the numerological map."
     },
     9: {

@@ -21,12 +21,29 @@
 
 .inputs {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .input {
-  width: 25%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.input input {
+  padding: 5px;
+  flex: 1;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.input label {
+  display: inline-block;
+  text-align: center;
 }
 
 .buttons {
