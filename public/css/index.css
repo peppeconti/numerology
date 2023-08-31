@@ -73,9 +73,7 @@ h2 {
   text-transform: capitalize;
 }
 
-.route pre,
-.request pre,
-.response pre {
+.route pre {
   padding: 15px 10px;
   background-color: #ebebeb;
   border: 1px solid #c7c7c7;
