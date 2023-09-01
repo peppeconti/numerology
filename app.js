@@ -10,6 +10,7 @@ const bodyParser = require("body-parser");
 
 // ROUTES
 const affinityRoutes = require("./api/routes/affinity-route");
+const nameRoutes = require("./api/routes/name-route");
 
 const app = express();
 
@@ -22,6 +23,7 @@ app.use(cors());
 // ROUTES
 
 app.use("/api/affinity", affinityRoutes);
+app.use("/api/name-meaning", nameRoutes);
 
 app.get("/", (req, res, next) => {
   res.status(200);

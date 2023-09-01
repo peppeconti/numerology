@@ -1,4 +1,4 @@
-const couples = require("../utils/results");
+const couples = require("../utils/couples");
 const HttpError = require("../../models/http-error");
 const { validationResult } = require("express-validator");
 
@@ -42,3 +42,4 @@ const calculateAffinity = async (req, res, next) => {
   });
 };
 exports.calculateAffinity = calculateAffinity;
+exports.reduction = reduction;
