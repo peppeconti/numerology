@@ -1,11 +1,16 @@
 main {
   padding-top: 100px;
+  color: #181818;
 }
 
 .section {
   height: auto;
   padding: 0 100px;
   margin-bottom: 150px;
+}
+
+a {
+  color: #181818;
 }
 
 h1,
@@ -31,7 +36,6 @@ h2 {
   gap: 40px;
 }
 
-.request pre {
-  background-color: rgb(182, 255, 182);
-  border: none;
+pre {
+  padding: 15px 10px;
 }
