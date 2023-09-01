@@ -35,7 +35,7 @@
 .input input {
   padding: 5px;
   border-radius: 2px;
-  border: 1px solid #616161;
+  border: 1px solid #b8b8b8;
   flex: 1;
 }
 
@@ -58,8 +58,8 @@
   padding: 5px;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #eeeeee;
-  border: 1px solid #616161;
+  background-color: #dbdbdb;
+  border: 1px solid #b8b8b8;
 }
 
 .buttons button:hover {
@@ -74,7 +74,7 @@
 }
 
 .request pre {
-  background-color: #c7c7c7;
+  background-color: #d1d1d1;
   border: none;
 }
 
