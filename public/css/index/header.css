@@ -1,0 +1,35 @@
+.header {
+    padding: 0 100px;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    position: fixed;
+  }
+  
+  .nav__bar ul {
+    display: flex;
+  }
+  
+  .nav__bar ul li {
+    list-style: none;
+  }
+  
+  .nav__bar ul li:hover {
+    background-color: #161616;
+  }
+  
+  .nav__bar ul li a {
+    display: block;
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+  
+  .nav__bar ul li:first-child {
+    margin-left: -14px;
+  }
+  
+  .nav__bar ul li:first-child:hover {
+    background-color: transparent;
+  }

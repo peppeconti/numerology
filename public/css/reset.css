@@ -6,9 +6,3 @@
   font-family: "Josefin Sans", sans-serif;
   color: #181818;
 }
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}

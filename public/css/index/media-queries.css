@@ -1,0 +1,22 @@
+@media screen and (max-width: 1066px) {
+  .header,
+  .section {
+    padding: 0 50px;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  th,
+  td {
+    padding: 12px 8px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .header,
+  .section {
+    padding: 0 20px;
+  }
+}
