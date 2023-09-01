@@ -30,6 +30,12 @@ h2 {
   border-bottom: 1px solid #c7c7c7;
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;

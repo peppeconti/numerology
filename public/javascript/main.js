@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     input.addEventListener("input", (e) => {
       if (e.target.value.length) affinity__values[input.name] = e.target.value;
       if (!e.target.value.length) delete affinity__values[input.name];
-      console.log(affinity__values);
+      //console.log(affinity__values);
     });
   });
 
@@ -41,8 +41,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const preTemplate = (request) =>
     `<h3>Request:</h3><pre><a href="${request}" target="_blank">${request}</a></pre>`;
 
-  const responseTemplate = (response,state) =>
-    `<h3>Response: ${state ? '<span style=color:green>V</span>' : '<span style=color:red>X</span>'}</h3><pre>${response}</pre>`;
+  const responseTemplate = (response, state) =>
+    `<h3>Response: ${
+      state
+        ? "<span style=color:green>V</span>"
+        : "<span style=color:red>X</span>"
+    }</h3><pre>${response}</pre>`;
+
+  const loader = `<div class="lds-ellipsis"><div></div><div></div><div></div>`;
 
   async function submit(e) {
     e.preventDefault();
@@ -55,25 +61,39 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const uri = `${window.location.origin}/api/affinity?${values.join("&")}`;
-    console.log(uri);
 
     // ELABORATING REQUEST
 
     affinityRequest.classList.remove("hide");
     affinityRequest.innerHTML = preTemplate(uri);
     affinityResponse.classList.remove("hide");
-    affinityResponse.innerHTML = `<div class="lds-ellipsis"><div></div><div></div><div></div>`;
+    affinityResponse.innerHTML = loader;
 
-    const response = await fetch(uri);
-    const affinity = await response.json();
+    // abort in 1 second
+    let controller = new AbortController();
+    setTimeout(() => controller.abort(), 1);
 
-    setTimeout(
-      () =>
-        (affinityResponse.innerHTML = responseTemplate(
-          JSON.stringify(affinity), affinity.status
-        )),
-      3000
-    );
+    try {
+      const response = await fetch(uri, {
+        signal: controller.signal,
+      });
+      const affinity = await response.json();
+      /*setTimeout(
+        () =>
+          (affinityResponse.innerHTML = responseTemplate(
+            JSON.stringify(affinity),
+            affinity.status
+          )),
+        3000
+      );*/
+    } catch (err) {
+      if (err.name == "AbortError") {
+        affinityResponse.innerHTML = '<h1>funcia</h1>'
+      } else {
+        throw err;
+      }
+    }
+
   }
 
   // RESETTING
@@ -90,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     [her, him, lan].forEach((input) => {
       input.value = "";
-      delete affinity__values[input.name]
+      delete affinity__values[input.name];
     });
   }
 });

@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="/css/index.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header flex">
       <nav class="nav__bar">
-        <ul>
+        <ul class="flex">
           <li><a href="#top">Numerology API</a></li>
           <li><a href="#usage">Usage</a></li>
           <li><a href="#params">Parameters</a></li>
@@ -118,21 +118,42 @@
         <form id="affinity" class="flex-column">
           <legend class="margin">Affinity calculation</legend>
           <div class="flex-column margin">
-            <div class="inputs">
-              <p class="input">
+            <div class="inputs flex">
+              <p class="input flex">
                 <label for="her">Her:</label>
                 <input type="text" id="her" name="her" autocomplete="off" />
               </p>
-              <p class="input">
+              <p class="input flex">
                 <label for="him">Him:</label>
                 <input type="text" id="him" name="him" autocomplete="off" />
               </p>
-              <p class="input">
+              <p class="input flex">
                 <label for="lan">Language:</label>
                 <input type="text" id="lan" name="lan" autocomplete="off" />
               </p>
             </div>
-            <div class="buttons">
+            <div class="buttons flex">
+              <button type="submit">Search</button>
+              <button type="button">Reset</button>
+            </div>
+          </div>
+          <div class="request hide"></div>
+          <div class="response hide"></div>
+        </form>
+        <form id="name__meaning" class="flex-column">
+          <legend class="margin">Name meaning calculation</legend>
+          <div class="flex-column margin">
+            <div class="inputs flex">
+              <p class="input flex">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" autocomplete="off" />
+              </p>
+              <p class="input flex">
+                <label for="lan_name">Language:</label>
+                <input type="text" id="lan_name" name="lan_name" autocomplete="off" />
+              </p>
+            </div>
+            <div class="buttons flex">
               <button type="submit">Search</button>
               <button type="button">Reset</button>
             </div>

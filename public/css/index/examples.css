@@ -1,18 +1,19 @@
 @import "./loader.css";
 
-#affinity {
+#affinity, #name__meaning {
   padding: 28px 22px;
   background-color: #ebebeb;
   gap: 28px;
+  margin-bottom: 40px;
 }
 
-#affinity legend {
+#examples form legend {
   font-size: 1.2rem;
   padding-bottom: 18px;
   text-transform: capitalize;
 }
 
-#affinity .flex-column {
+#examples form .flex-column {
   gap: 20px;
 }
 
@@ -22,16 +23,12 @@
 }
 
 .inputs {
-  display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   gap: 15px;
 }
 
 .input {
   flex: 1;
-  display: flex;
-  align-items: center;
   gap: 5px;
 }
 
@@ -44,6 +41,7 @@
 
 .input input:focus {
   outline: none;
+  box-shadow: 1px 1px 2px #181818;
 }
 
 .input label {
@@ -52,7 +50,6 @@
 }
 
 .buttons {
-  display: flex;
   gap: 15px;
 }
 
@@ -66,7 +63,9 @@
 }
 
 .buttons button:hover {
-  background-color: #ececec;
+  background-color: #d1d1d1;
+  box-shadow: 1px 1px 2px #181818;;
+
 }
 
 
