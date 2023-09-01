@@ -40,7 +40,7 @@ app.use((req, res, next) => {
 app.use("/api", (error, req, res, next) => {
   res.status(error.code || 500);
   res.json({
-    status: false,
+    status: "false",
     error: {
       message: error.message,
       messages: error.messages,

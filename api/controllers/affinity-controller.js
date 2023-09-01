@@ -35,7 +35,7 @@ const calculateAffinity = async (req, res, next) => {
     : (result = couples[himNumber][herNumber][language]);
   // RESPONSE
   res.status(200).json({
-    status: true,
+    status: "true",
     her: herNumber,
     him: himNumber,
     affinity: result,

@@ -1,3 +1,5 @@
+import { render, preTemplate, loader } from "./render.js";
+
 document.addEventListener("DOMContentLoaded", () => {
   const her = document.getElementById("her");
   const him = document.getElementById("him");
@@ -38,20 +40,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // FETCH
 
-  const preTemplate = (request) =>
-    `<h3>Request:</h3><pre><a href="${request}" target="_blank">${request}</a></pre>`;
-
-  const responseTemplate = (response, state) =>
-    `<h3>Response: ${
-      state
-        ? "<span style=color:green>V</span>"
-        : "<span style=color:red>X</span>"
-    }</h3><pre>${response}</pre>`;
-
-  const loader = `<div class="lds-ellipsis"><div></div><div></div><div></div>`;
-
   async function submit(e) {
     e.preventDefault();
+
+    const route = e.target.id;
 
     let values = [];
 
@@ -60,40 +52,40 @@ document.addEventListener("DOMContentLoaded", () => {
       values.push(param);
     }
 
-    const uri = `${window.location.origin}/api/affinity?${values.join("&")}`;
+    const uri = `${window.location.origin}/api/${route}?${values.join("&")}`;
 
     // ELABORATING REQUEST
 
     affinityRequest.classList.remove("hide");
-    affinityRequest.innerHTML = preTemplate(uri);
+    render(affinityRequest, preTemplate(uri));
+    //affinityRequest.innerHTML = preTemplate(uri);
     affinityResponse.classList.remove("hide");
     affinityResponse.innerHTML = loader;
 
     // abort in 1 second
     let controller = new AbortController();
-    setTimeout(() => controller.abort(), 1);
+    setTimeout(() => controller.abort(), 10000);
 
     try {
       const response = await fetch(uri, {
         signal: controller.signal,
       });
       const affinity = await response.json();
-      /*setTimeout(
+      setTimeout(
         () =>
-          (affinityResponse.innerHTML = responseTemplate(
-            JSON.stringify(affinity),
-            affinity.status
-          )),
+          render(
+            affinityResponse,
+            preTemplate(JSON.stringify(affinity), affinity.status)
+          ),
         3000
-      );*/
+      );
     } catch (err) {
       if (err.name == "AbortError") {
-        affinityResponse.innerHTML = '<h1>funcia</h1>'
+        affinityResponse.innerHTML = "<h1>funcia</h1>";
       } else {
         throw err;
       }
     }
-
   }
 
   // RESETTING
