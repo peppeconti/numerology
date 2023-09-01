@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (err.name == "AbortError") {
         affinityResponse.innerHTML = "<h1>funcia</h1>";
       } else {
-        throw err;
+        render(affinityResponse, `<p>${err}</p>`);
       }
     }
   }
