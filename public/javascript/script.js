@@ -1,4 +1,5 @@
 import { render, preTemplate, loader } from "./render.js";
+import { clickHandler, links } from "./scroll.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const her = document.getElementById("her");
@@ -21,19 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // SCROLL
-  const links = document.querySelectorAll(".nav__bar li a");
-
-  const clickHandler = (e) => {
-    e.preventDefault();
-    const href = e.target.getAttribute("href");
-    const offsetTop = document.querySelector(href).offsetTop;
-
-    scroll({
-      top: offsetTop - 100,
-      behavior: "smooth",
-    });
-  };
-
+  
   for (const link of links) {
     link.addEventListener("click", clickHandler);
   }
