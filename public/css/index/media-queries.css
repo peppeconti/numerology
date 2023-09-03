@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 540px) {
   .header,
   .section {
     padding: 0 10px;
@@ -43,6 +43,12 @@
   th,
   td {
     padding: 10px 6px;
+  }
+  
+  #affinity, #name-meaning {
+    padding: 20px 16px;
+    margin-bottom: 30px;
+    gap: 18px
   }
 
   #examples form legend {
