@@ -5,6 +5,8 @@ import { formState, forms } from "./form-handler.js";
 document.addEventListener("DOMContentLoaded", () => {
   forms.forEach((form) => form.addEventListener("submit", submit));
 
+  // FETCH
+
   async function submit(e) {
     e.preventDefault();
 
@@ -22,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // ELABORATING REQUEST
 
     const requestContainer = document.querySelector(`#${route} .request`);
-    const responseContainer = document.querySelector(`#${route} .response`)
+    const responseContainer = document.querySelector(`#${route} .response`);
 
     requestContainer.classList.remove("hide");
     render(requestContainer, preTemplate(uri));
@@ -62,72 +64,25 @@ document.addEventListener("DOMContentLoaded", () => {
     link.addEventListener("click", clickHandler);
   }
 
-  // FETCH
-
-  /*async function submit(e) {
-    e.preventDefault();
-
-    const route = e.target.id;
-
-    let values = [];
-
-    for (const property in affinity__values) {
-      let param = `${property}=${affinity__values[property]}`;
-      values.push(param);
-    }
-
-    const uri = `${window.location.origin}/api/${route}?${values.join("&")}`;
-
-    // ELABORATING REQUEST
-
-    affinityRequest.classList.remove("hide");
-    render(affinityRequest, preTemplate(uri));
-    //affinityRequest.innerHTML = preTemplate(uri);
-    affinityResponse.classList.remove("hide");
-    affinityResponse.innerHTML = loader;
-
-    // abort in 1 second
-    let controller = new AbortController();
-    setTimeout(() => controller.abort(), 10000);
-
-    try {
-      const response = await fetch(uri, {
-        signal: controller.signal,
-      });
-      const affinity = await response.json();
-      setTimeout(
-        () =>
-          render(
-            affinityResponse,
-            preTemplate(JSON.stringify(affinity), affinity.status)
-          ),
-        3000
-      );
-    } catch (err) {
-      if (err.name == "AbortError") {
-        affinityResponse.innerHTML = "<h1>funcia</h1>";
-      } else {
-        render(affinityResponse, `<p></p>`);
-        throw err;
-      }
-    }
-  }
-
   // RESETTING
 
-  const reset = document.querySelector("button[type=button]");
+  const resetButtons = document.querySelectorAll("button[data-route]");
 
-  reset.addEventListener("click", resetQuery);
+  resetButtons.forEach((button) =>
+    button.addEventListener("click", resetQuery)
+  );
 
-  function resetQuery() {
-    affinityRequest.classList.add("hide");
-    affinityResponse.classList.add("hide");
-    affinityRequest.innerHTML = "";
-    affinityResponse.innerHTML = "";
+  function resetQuery(e) {
+    const route = e.target.dataset.route;
 
-    [her, him, lan].forEach((input) => {
-      input.value = "";
-      delete affinity__values[input.name];
-    });
-  }*/
+    const requestContainer = document.querySelector(`#${route} .request`);
+    const responseContainer = document.querySelector(`#${route} .response`);
+
+    requestContainer.classList.add("hide");
+    requestContainer.classList.add("hide");
+    requestContainer.innerHTML = "";
+    responseContainer.innerHTML = "";
+
+    formState.route = {}
+  }
 });
