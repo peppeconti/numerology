@@ -3,9 +3,16 @@ import { clickHandler, links } from "./scroll.js";
 import { formState, forms } from "./form-handler.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  forms.forEach((form) => form.addEventListener("submit", submit));
+
+  // SCROLL
+
+  for (const link of links) {
+    link.addEventListener("click", clickHandler);
+  };
 
   // FETCH
+
+  forms.forEach((form) => form.addEventListener("submit", submit));
 
   async function submit(e) {
     e.preventDefault();
@@ -56,12 +63,6 @@ document.addEventListener("DOMContentLoaded", () => {
         throw err;
       }
     }
-  }
-
-  // SCROLL
-
-  for (const link of links) {
-    link.addEventListener("click", clickHandler);
   }
 
   // RESETTING
