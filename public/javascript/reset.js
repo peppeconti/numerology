@@ -7,7 +7,9 @@ function resetQuery(e) {
 
   const requestContainer = document.querySelector(`#${route} .request`);
   const responseContainer = document.querySelector(`#${route} .response`);
+  const inputs = Array.from(document.querySelectorAll(`input[data-route=${route}]`));
 
+  inputs.forEach(input => input.value = '');
   requestContainer.classList.add("hide");
   requestContainer.classList.add("hide");
   requestContainer.innerHTML = "";
