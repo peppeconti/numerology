@@ -1,3 +1,8 @@
+body {
+  max-width: 1366px;
+  min-width: 360px;
+}
+
 main {
   padding-top: 100px;
   color: #181818;

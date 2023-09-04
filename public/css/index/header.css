@@ -29,12 +29,12 @@
   }
 
   .hamb__menu {
-    background-color: red;
-    padding: 15px 0;
+    padding: 11px 5px;
   }
 
-  .fa-solid {
-    color: beige;
-    font-size: 3rem;
+  .fas {
+    color: #fff;
+    font-size: 1.5rem;
+    display: none;
   }
 
