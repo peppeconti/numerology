@@ -27,6 +27,10 @@
     padding: 0 10px;
   }
 
+  .nav__bar {
+    position: absolute;
+  }
+
   .section {
     margin-bottom: 75px;
   }

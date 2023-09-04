@@ -27,3 +27,14 @@
   .nav__bar ul li:first-child:hover {
     background-color: transparent;
   }
+
+  .hamb__menu {
+    background-color: red;
+    padding: 15px 0;
+  }
+
+  .fa-solid {
+    color: beige;
+    font-size: 3rem;
+  }
+
