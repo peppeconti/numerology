@@ -1,6 +1,8 @@
 import { render, preTemplate, loader } from "./render.js";
 import { clickHandler, links } from "./scroll.js";
 import { formState, forms } from "./form-handler.js";
+import { resetButtons, resetQuery }  from "./reset.js";
+import { hamb, showMenu }  from "./hamb-menu.js";
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -9,6 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
   for (const link of links) {
     link.addEventListener("click", clickHandler);
   };
+
+  // TOGGLE
+
+  hamb.addEventListener('click', showMenu);
 
   // FETCH
 
@@ -67,23 +73,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // RESETTING
 
-  const resetButtons = document.querySelectorAll("button[data-route]");
-
   resetButtons.forEach((button) =>
-    button.addEventListener("click", resetQuery)
-  );
-
-  function resetQuery(e) {
-    const route = e.target.dataset.route;
-
-    const requestContainer = document.querySelector(`#${route} .request`);
-    const responseContainer = document.querySelector(`#${route} .response`);
-
-    requestContainer.classList.add("hide");
-    requestContainer.classList.add("hide");
-    requestContainer.innerHTML = "";
-    responseContainer.innerHTML = "";
-
-    formState.route = {}
-  }
+    button.addEventListener("click", resetQuery));
 });

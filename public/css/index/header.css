@@ -30,11 +30,11 @@
 
   .hamb__menu {
     padding: 11px 5px;
+    display: none;
   }
 
   .fas {
     color: #fff;
     font-size: 1.5rem;
-    display: none;
   }
 

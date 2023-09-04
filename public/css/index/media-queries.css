@@ -53,7 +53,11 @@
     margin-left: 0px;
   }
 
-  .fas {
+  .nav__bar.visible {
+    display: block;
+  }
+
+  .hamb__menu {
     display: block;
   }
 
