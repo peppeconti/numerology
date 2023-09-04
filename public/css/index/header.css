@@ -30,6 +30,7 @@
 
   .hamb__menu {
     padding: 11px 5px;
+    cursor: pointer;
     display: none;
   }
 
