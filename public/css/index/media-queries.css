@@ -28,12 +28,21 @@
   }
 
   h1,
-  h2 {
+  h2,
+  h3 {
+    text-align: center;
     font-size: 3rem;
   }
 
-  h3, pre {
-    font-size: .9rem;
+  h3,
+  pre {
+    font-size: 0.9rem;
+  }
+
+  pre {
+    word-break: break-all;
+    word-wrap: normal;
+    white-space: normal;
   }
 
   table {
@@ -44,11 +53,12 @@
   td {
     padding: 10px 6px;
   }
-  
-  #affinity, #name-meaning {
+
+  #affinity,
+  #name-meaning {
     padding: 20px 16px;
     margin-bottom: 30px;
-    gap: 18px
+    gap: 18px;
   }
 
   #examples form legend {
@@ -58,6 +68,4 @@
   .input label {
     font-size: 1rem;
   }
-
-
 }
