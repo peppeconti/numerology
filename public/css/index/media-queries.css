@@ -124,23 +124,6 @@
       right: 0;
     }
   }
-
-  /*@-webkit-keyframes fadeOut {
-    from {
-      right: 0;
-    }
-    to {
-      right: -100%;
-    }
-  }
-  @keyframes fadeOut {
-    from {
-      right: 0;
-    }
-    to {
-      right: -100%;
-    }
-  }*/
 }
 
 @media screen and (max-width: 380px) {
