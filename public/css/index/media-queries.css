@@ -27,6 +27,10 @@
     padding: 0 10px;
   }
 
+  .section {
+    margin-bottom: 75px;
+  }
+
   h1,
   h2,
   h3 {
