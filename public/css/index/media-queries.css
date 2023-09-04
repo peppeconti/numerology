@@ -32,8 +32,25 @@
   }
 
   .nav__bar {
+    top: 46px;
+    right: 0;
+    background-color: #333;
     position: fixed;
     display: none;
+  }
+
+  .nav__bar ul {
+    padding: 0px;
+    flex-direction: column;
+  }
+
+  .nav__bar ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav__bar ul li:first-child {
+    margin-left: 0px;
   }
 
   .fas {
