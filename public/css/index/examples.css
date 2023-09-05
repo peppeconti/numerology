@@ -90,3 +90,7 @@
 .hide {
   display: none;
 }
+
+.response .fas {
+  font-size: 1rem;
+} 

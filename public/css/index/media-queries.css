@@ -131,4 +131,12 @@
   h2 {
     font-size: 2.8rem;
   }
+  table {
+    font-size: 0.7rem;
+  }
+
+  th,
+  td {
+    padding: 8px 4px;
+  }
 }
