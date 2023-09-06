@@ -1,3 +1,7 @@
-.intro {
-    
+.intro.flex {
+    gap: 20px;
+}
+
+.intro p {
+    line-height: 1.4rem;
 }
