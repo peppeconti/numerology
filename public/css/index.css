@@ -1,5 +1,6 @@
 @import "./index/general.css";
 @import "./index/header.css";
+@import "./index/intro.css";
 @import "./index/routes.css";
 @import "./index/parameters.css";
 @import "./index/examples.css";
