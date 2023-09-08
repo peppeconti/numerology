@@ -35,6 +35,10 @@ h2 {
   border-bottom: 1px solid #c7c7c7;
 }
 
+img {
+  width: 40%;
+}
+
 .flex {
     display: flex;
     align-items: center;
