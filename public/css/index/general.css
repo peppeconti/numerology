@@ -27,16 +27,12 @@ h3 {
 h1,
 h2 {
   font-size: 3.8rem;
+  padding-bottom: 20px;
   margin-bottom: 25px;
 }
 
 h2 {
-  padding-bottom: 20px;
   border-bottom: 1px solid #c7c7c7;
-}
-
-img {
-  width: 40%;
 }
 
 .flex {
