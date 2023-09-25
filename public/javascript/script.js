@@ -18,6 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // FETCH
 
+  let controller;
+
   forms.forEach((form) => form.addEventListener("submit", submit));
 
   async function submit(e) {
@@ -45,8 +47,8 @@ document.addEventListener("DOMContentLoaded", () => {
     render(responseContainer, loader);
 
     // abort in 1 second
-    let controller = new AbortController();
-    setTimeout(() => controller.abort(), 10000);
+    controller = new AbortController();
+    //setTimeout(() => controller.abort(), 10000);
 
     try {
       const response = await fetch(uri, {
@@ -63,9 +65,10 @@ document.addEventListener("DOMContentLoaded", () => {
       );
     } catch (err) {
       if (err.name == "AbortError") {
-        requestContainer.innerHTML = "<h1>funcia</h1>";
+        console.log('error');
+        render(responseContainer, "<h1>funcia</h1>");
       } else {
-        render(responseContainer, `<p></p>`);
+        render(responseContainer, "<p></p>");
         throw err;
       }
     }
@@ -74,5 +77,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // RESETTING
 
   resetButtons.forEach((button) =>
-    button.addEventListener("click", resetQuery));
+    button.addEventListener("click", (e) => {
+        resetQuery(e);
+        controller.abort();
+    }));
 });
