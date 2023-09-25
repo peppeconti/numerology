@@ -45,9 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
     responseContainer.classList.remove("hide");
     render(responseContainer, loader);
 
-    // abort in 1 second
     controller = new AbortController();
-    //setTimeout(() => controller.abort(), 10000);
 
     try {
       const response = await fetch(uri, {
@@ -56,10 +54,14 @@ document.addEventListener("DOMContentLoaded", () => {
       const responseJSON = await response.json();
       setTimeout(
         () =>
-          render(
-            responseContainer,
-            preTemplate(JSON.stringify(responseJSON), responseJSON.status)
-          ),
+          {
+            if(!controller.signal.aborted) {
+              render(
+                responseContainer,
+                preTemplate(JSON.stringify(responseJSON), responseJSON.status)
+              )
+            } else if (controller.signal.aborted) return;
+        },
         3000
       );
     } catch (err) {
@@ -79,7 +81,6 @@ document.addEventListener("DOMContentLoaded", () => {
     button.addEventListener("click", (e) => {
       controller.abort();
       resetQuery(e);
-      console.log(controller);
     })
   );
 });
