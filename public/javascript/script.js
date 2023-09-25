@@ -1,20 +1,19 @@
 import { render, preTemplate, loader } from "./render.js";
 import { clickHandler, links } from "./scroll.js";
 import { formState, forms } from "./form-handler.js";
-import { resetButtons, resetQuery }  from "./reset.js";
-import { hamb, showMenu }  from "./hamb-menu.js";
+import { resetButtons, resetQuery } from "./reset.js";
+import { hamb, showMenu } from "./hamb-menu.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-
   // SCROLL
 
   for (const link of links) {
     link.addEventListener("click", clickHandler);
-  };
+  }
 
   // TOGGLE
 
-  hamb.addEventListener('click', showMenu);
+  hamb.addEventListener("click", showMenu);
 
   // FETCH
 
@@ -65,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
       );
     } catch (err) {
       if (err.name == "AbortError") {
-        console.log('error');
+        console.log("error");
         render(responseContainer, "<h1>funcia</h1>");
       } else {
         render(responseContainer, "<p></p>");
@@ -78,7 +77,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   resetButtons.forEach((button) =>
     button.addEventListener("click", (e) => {
-        resetQuery(e);
-        controller.abort();
-    }));
+      controller.abort();
+      resetQuery(e);
+      console.log(controller);
+    })
+  );
 });
