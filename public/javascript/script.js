@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // RESETTING
 
   resetButtons.forEach((button) =>
-    button.addEventListener("click", (e, controller) => {
+    button.addEventListener("click", (e) => {
       resetQuery(e, controller);
     })
   );
