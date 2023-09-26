@@ -67,9 +67,9 @@ document.addEventListener("DOMContentLoaded", () => {
     } catch (err) {
       if (err.name == "AbortError") {
         console.log("error");
-        render(responseContainer, "<h1>funcia</h1>");
+        render(responseContainer, "<p>Your request couldn't be elaborated...</p>");
       } else {
-        render(responseContainer, "<p></p>");
+        render(responseContainer, "<p>An unknown error occured...</p>");
         throw err;
       }
     }
