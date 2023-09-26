@@ -52,22 +52,21 @@ document.addEventListener("DOMContentLoaded", () => {
         signal: controller.signal,
       });
       const responseJSON = await response.json();
-      setTimeout(
-        () =>
-          {
-            if(!controller.signal.aborted) {
-              render(
-                responseContainer,
-                preTemplate(JSON.stringify(responseJSON), responseJSON.status)
-              )
-            } else if (controller.signal.aborted) return;
-        },
-        3000
-      );
+      setTimeout(() => {
+        if (!controller.signal.aborted) {
+          render(
+            responseContainer,
+            preTemplate(JSON.stringify(responseJSON), responseJSON.status)
+          );
+        } else if (controller.signal.aborted) return;
+      }, 3000);
     } catch (err) {
       if (err.name == "AbortError") {
         console.log("error");
-        render(responseContainer, "<p>Your request couldn't be elaborated...</p>");
+        render(
+          responseContainer,
+          "<p>Your request couldn't be elaborated...</p>"
+        );
       } else {
         render(responseContainer, "<p>An unknown error occured...</p>");
         throw err;
@@ -82,4 +81,10 @@ document.addEventListener("DOMContentLoaded", () => {
       resetQuery(e, controller);
     })
   );
+
+  // GETTING YEAR IN FOOTER
+
+  const year = document.getElementById("year");
+  const currentYear = new Date().getFullYear();
+  year.innerHTML = currentYear;
 });

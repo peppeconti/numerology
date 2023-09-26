@@ -1,4 +1,10 @@
 .footer {
-    height: 300px;
+    padding: 3rem 2rem;
     background-color: #333;
+}
+
+.credits {
+    padding: 1rem 0;
+    color: #bfbfbf;
+    font-size: 1.3rem;
 }
