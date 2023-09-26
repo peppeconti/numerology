@@ -3,15 +3,15 @@
   align-items: stretch;
 }
 
-.intro p:nth-child(2) {
+.intro div:nth-child(1) {
+  line-height: 1.4rem;
+  width: 75%;
+}
+
+.intro div:nth-child(2) {
   display: flex;
   align-content: flex-start;
   width: 25%;
-}
-
-.intro p:nth-child(1) {
-  line-height: 1.4rem;
-  width: 75%;
 }
 
 img {

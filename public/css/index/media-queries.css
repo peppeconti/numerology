@@ -26,10 +26,10 @@
 }
 
 @media screen and (max-width: 680px) {
-  .intro p:nth-child(1) {
+  .intro div:nth-child(1) {
     width: 100%;
   }
-  .intro p:nth-child(2) {
+  .intro div:nth-child(2) {
     display: none;
   }
 }
