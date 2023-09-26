@@ -1,6 +1,8 @@
 body {
   max-width: 1366px;
   min-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 main {

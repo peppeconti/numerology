@@ -1,16 +1,20 @@
 .intro.flex {
-  gap: 25px;
+  gap: 50px;
   align-items: stretch;
 }
 
-.intro p {
+.intro p:nth-child(2) {
+  display: flex;
+  align-content: flex-start;
+  width: 25%;
+}
+
+.intro p:nth-child(1) {
   line-height: 1.4rem;
-  background-color: rgb(255, 178, 178);
-  width: 50%;
+  width: 75%;
 }
 
 img {
-
-  width: 50%;
+  width: 100%;
   display: block;
 }

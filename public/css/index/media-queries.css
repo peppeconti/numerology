@@ -19,9 +19,23 @@
   .section {
     padding: 0 20px;
   }
+
+  .intro.flex {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .intro p:nth-child(1) {
+    width: 100%;
+  }
+  .intro p:nth-child(2) {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 560px) {
+  
   .header,
   .section {
     padding: 0 10px;
@@ -55,7 +69,7 @@
 
   .nav__bar.visible {
     display: block;
-    animation: fadeIn .5s forwards;
+    animation: fadeIn 0.5s forwards;
   }
 
   .hamb__menu {
