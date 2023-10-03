@@ -104,7 +104,7 @@ const couples = {
   4: {
     4: {
         it: "Tra numeri 4 ci può essere stabilità; tuttavia, a causa della vostra natura, potreste diventare un po' irrequieti quando la routine stabilita viene interrotta. Ciò può portare a una relazione molto buona, o molto stressante. Gli aspetti positivi di questo abbinamento sono stabilità e sicurezza… il rovescio della medaglia è che c'è difficoltà a rilassarsi, a essere spontanei e godersi il momento.",
-        en: "The 9 and 3 are a combination of two people who, through their powerful imaginations, are able to continually engage in a variety of creative ways. Both of you are artistic, imaginative, easy-going, optimistic, and positive. Your characteristics and interests are almost similar. This combination reflects excellent compatibility."
+        en: "Between numbers 4 there can be stability; however, due to your nature, you may become a little restless when your established routine is interrupted. This can lead to a very good relationship, or a very stressful one. The positive aspects of this pairing are stability and security… the downside is that there is difficulty in relaxing, being spontaneous and enjoying the moment."
     },
     5: {
         it: "Questa  relazione potrebbe risultare impegnativa, il 4 e il 5 sono ai poli opposti l'uno dell'altro. Il 4 ama la routine e la prevedibilità, Il 5 ama il cambiamento e la sorpresa, l'unico modo in cui questa coppia può sopravvivere è accettarsi l'un l'altro per quello che sono e rispettare le loro differenze invece di cercare di cambiare il proprio partner.",
