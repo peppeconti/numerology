@@ -13,9 +13,7 @@ const clickHandler = (e) => {
   });
 };
 
-window.addEventListener("scroll", () => {
-  setActive();
-});
+window.addEventListener("scroll", setActive);
 
 /*function setActive() {
   let items = 1;
@@ -32,7 +30,7 @@ window.addEventListener("scroll", () => {
 }*/
 
 function setActive() {
-    links.forEach((link) => {
+    links.forEach(link => {
       const href = link.getAttribute("href");
       const item = document.querySelector(href);
       if (window.scrollY + 100 >= item.offsetTop) {
