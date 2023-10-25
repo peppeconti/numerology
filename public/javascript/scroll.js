@@ -1,4 +1,4 @@
-const links = document.querySelectorAll(".nav__bar ul li a");
+const links = Array.from(document.querySelectorAll(".nav__bar ul li a"));
 
 const clickHandler = (e) => {
   e.preventDefault();
@@ -13,31 +13,38 @@ const clickHandler = (e) => {
   });
 };
 
-window.addEventListener("scroll", setActive);
-
-/*function setActive() {
-  let items = 1;
-  return () => {
-    let itemsArray = [];
-    links.forEach((link) => {
-      const href = link.getAttribute("href");
-      const item = document.querySelector(href);
-      if (window.scrollY + 100 >= item.offsetTop) {
-        
-      };
-    });
-  };
-}*/
+window.addEventListener("scroll", setActive());
 
 function setActive() {
+  let activeLink = document.querySelector(".active");
+  return () => {
     links.forEach(link => {
       const href = link.getAttribute("href");
       const item = document.querySelector(href);
-      if (window.scrollY + 100 >= item.offsetTop) {
-        links.forEach(e => e.classList.remove('active'));
-        link.classList.add('active');
-      };
+      if (
+        window.scrollY + 100 >= item.offsetTop &&
+        window.scrollY + 100 <= item.offsetHeight + item.offsetTop
+      ) {
+        if (link !== activeLink) {
+          activeLink.classList.remove("active");
+          link.classList.add("active");
+          activeLink = link;
+          console.log('set');
+        }
+      }
     });
+  };
 }
+
+/*function setActive() {
+  links.forEach((link) => {
+    const href = link.getAttribute("href");
+    const item = document.querySelector(href);
+    if (window.scrollY + 100 >= item.offsetTop) {
+      links.forEach((e) => e.classList.remove("active"));
+      link.classList.add("active");
+    }
+  });
+}*/
 
 export { links, clickHandler };
