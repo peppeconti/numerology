@@ -72,6 +72,10 @@
     animation: fadeIn 0.5s forwards;
   }
 
+  .nav__bar.back {
+    animation: fadeOut 1s forwards;
+  }
+
   .hamb__menu {
     display: block;
   }
@@ -136,6 +140,22 @@
     }
     to {
       right: 0;
+    }
+  }
+  @-webkit-keyframes fadeOut {
+    from {
+      right: 0;
+    }
+    to {
+      right: -100%;
+    }
+  }
+  @keyframes fadeOut {
+    from {
+      right: 0;
+    }
+    to {
+      right: -100%;
     }
   }
 }
