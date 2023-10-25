@@ -50,7 +50,6 @@
     right: -100%;
     background-color: #333;
     position: fixed;
-    display: none;
   }
 
   .nav__bar ul {
@@ -65,15 +64,6 @@
 
   .nav__bar ul li:first-child {
     margin-left: 0px;
-  }
-
-  .nav__bar.visible {
-    display: block;
-    animation: fadeIn 0.5s forwards;
-  }
-
-  .nav__bar.back {
-    animation: fadeOut 1s forwards;
   }
 
   .hamb__menu {
@@ -124,39 +114,6 @@
 
   .input label {
     font-size: 1rem;
-  }
-
-  @-webkit-keyframes fadeIn {
-    from {
-      right: -100%;
-    }
-    to {
-      right: 0;
-    }
-  }
-  @keyframes fadeIn {
-    from {
-      right: -100%;
-    }
-    to {
-      right: 0;
-    }
-  }
-  @-webkit-keyframes fadeOut {
-    from {
-      right: 0;
-    }
-    to {
-      right: -100%;
-    }
-  }
-  @keyframes fadeOut {
-    from {
-      right: 0;
-    }
-    to {
-      right: -100%;
-    }
   }
 }
 
