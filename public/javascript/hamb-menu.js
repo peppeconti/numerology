@@ -13,13 +13,19 @@ const fadeOutKeyframes = new KeyframeEffect(
   { duration: 500, fill: "forwards" }
 );
 
-function showMenu() {
+//CLOSURE
+
+function menuHandler() {
   let animateNav;
-  hamb.children[0].classList.contains("fa-times")
-    ? (animateNav = new Animation(fadeOutKeyframes, document.timeline))
-    : (animateNav = new Animation(fadeInKeyframes, document.timeline));
-  hamb.children[0].classList.toggle("fa-times");
-  animateNav.play();
+  return () => {
+    hamb.children[0].classList.contains("fa-times")
+      ? (animateNav = new Animation(fadeOutKeyframes, document.timeline))
+      : (animateNav = new Animation(fadeInKeyframes, document.timeline));
+    hamb.children[0].classList.toggle("fa-times");
+    animateNav.play();
+  };
 }
 
-export { hamb, showMenu };
+const toggleMenu = menuHandler();
+
+export { hamb, toggleMenu };

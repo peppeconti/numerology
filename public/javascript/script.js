@@ -2,7 +2,7 @@ import { render, preTemplate, loader } from "./render.js";
 import { clickHandler, links } from "./scroll.js";
 import { formState, forms } from "./form-handler.js";
 import { resetButtons, resetQuery } from "./reset.js";
-import { hamb, showMenu } from "./hamb-menu.js";
+import { hamb, toggleMenu } from "./hamb-menu.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   // SCROLL
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // TOGGLE
 
-  hamb.addEventListener("click", showMenu);
+  hamb.addEventListener("click", toggleMenu);
 
   // FETCH
 
