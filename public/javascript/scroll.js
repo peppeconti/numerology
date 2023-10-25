@@ -5,8 +5,6 @@ const clickHandler = (e) => {
   const href = e.target.getAttribute("href");
   const offsetTop = document.querySelector(href).offsetTop;
 
-  //console.log("click: "+ String(offsetTop));
-
   scroll({
     top: offsetTop - 100,
     behavior: "smooth",
@@ -37,6 +35,8 @@ function setActive() {
   };
 }
 
+export { links, clickHandler };
+
 /*function setActive() {
   links.forEach((link) => {
     const href = link.getAttribute("href");
@@ -47,5 +47,3 @@ function setActive() {
     }
   });
 }*/
-
-export { links, clickHandler };
