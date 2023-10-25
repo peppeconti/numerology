@@ -15,6 +15,7 @@ const clickHandler = (e) => {
 
 window.addEventListener("scroll", setActive());
 
+// CLOSURE
 function setActive() {
   let activeLink = document.querySelector(".active");
   return () => {
