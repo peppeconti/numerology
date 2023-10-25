@@ -115,6 +115,11 @@
   .input label {
     font-size: 1rem;
   }
+
+  .credits {
+    text-align: center;
+    font-size: 1.2rem;
+}
 }
 
 @media screen and (max-width: 380px) {
