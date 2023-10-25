@@ -13,20 +13,33 @@ const clickHandler = (e) => {
   });
 };
 
-window.addEventListener('scroll', (e) => {
- 
-  links.forEach(link => {
-    //console.log("scroll: "+ String(window.scrollY));
-    const href = link.getAttribute("href");
-    //console.log(document.querySelector(href).offsetTop);
-    //console.log(document.querySelector(href));
-    //console.log("scroll: "+ String(window.scrollY+100));
-    //console.log(window.scrollY >= document.querySelector(href).offsetTop-100);
-    if (window.scrollY+100 >= document.querySelector(href).offsetTop) {
-      console.log(href);
-    }
-  })
+window.addEventListener("scroll", () => {
+  setActive();
+});
 
-})
+/*function setActive() {
+  let items = 1;
+  return () => {
+    let itemsArray = [];
+    links.forEach((link) => {
+      const href = link.getAttribute("href");
+      const item = document.querySelector(href);
+      if (window.scrollY + 100 >= item.offsetTop) {
+        
+      };
+    });
+  };
+}*/
+
+function setActive() {
+    links.forEach((link) => {
+      const href = link.getAttribute("href");
+      const item = document.querySelector(href);
+      if (window.scrollY + 100 >= item.offsetTop) {
+        links.forEach(e => e.classList.remove('active'));
+        link.classList.add('active');
+      };
+    });
+}
 
 export { links, clickHandler };

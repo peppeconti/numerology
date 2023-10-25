@@ -16,6 +16,7 @@
   
   .nav__bar ul li a {
     display: block;
+    opacity: .7;
     color: #fff;
     padding: 15px 20px;
     text-decoration: none;
@@ -27,6 +28,10 @@
   
   .nav__bar ul li:first-child:hover {
     background-color: transparent;
+  } 
+
+  .nav__bar ul li a.active {
+    opacity: 1;
   }
 
   .hamb__menu {
