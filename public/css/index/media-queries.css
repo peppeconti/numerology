@@ -1,3 +1,31 @@
+@media screen and (min-width: 1900px) {
+  main {
+    padding: 0 15rem;
+    padding-top: 100px;
+  }  
+}
+
+@media screen and (min-width: 1700px) {
+  main {
+    padding: 0 12.5rem;
+    padding-top: 100px;
+  }  
+}
+
+@media screen and (min-width: 1500px) {
+  main {
+    padding: 0 10rem;
+    padding-top: 100px;
+  }  
+}
+
+@media screen and (max-width: 1366px) {
+  main {
+    padding: 0 0rem;
+    padding-top: 100px;
+  }  
+}
+
 @media screen and (max-width: 1066px) {
   .header,
   .section {
