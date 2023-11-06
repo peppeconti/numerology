@@ -28,7 +28,6 @@ function setActive() {
           activeLink.classList.remove("active");
           link.classList.add("active");
           activeLink = link;
-          console.log('set');
         }
       }
     });
